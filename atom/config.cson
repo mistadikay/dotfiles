@@ -1,0 +1,130 @@
+"*":
+  "Remote-FTP":
+    autoUploadOnSave: "only when connected"
+  "advanced-open-file": {}
+  core:
+    disabledPackages: [
+      "language-javascript-jsx"
+      "path-hyperclick"
+      "Parinfer"
+    ]
+  editor:
+    tabLength: 4
+  "exception-reporting":
+    userId: "5c8145d0-f8d3-afde-89d8-7b32c168ac94"
+  "file-icons":
+    coloured: false
+    onChanges: true
+  fonts:
+    fontFamily: "Source Code Pro Light"
+  "go-debug":
+    panelInitialVisible: false
+  linter:
+    lintOnFly: false
+    showErrorInline: false
+  "linter-stylelint":
+    disableWhenNoConfig: true
+  "livestyle-atom":
+    analyzer:
+      notify: false
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "project-manager":
+    environmentSpecificProjects: true
+  "tree-view":
+    autoReveal: true
+    focusOnReveal: false
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".ansi.text":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".apib.gfm.html.markdown.source.text":
+  editor:
+    preferredLineLength: 100
+".attribute-values.js.jsx.source":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 100
+".clojure.source":
+  editor:
+    preferredLineLength: 100
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+".css.less.source":
+  editor:
+    preferredLineLength: 100
+".gfm.html.markdown.mson.source.text":
+  editor:
+    preferredLineLength: 100
+".gitignore.source":
+  editor:
+    preferredLineLength: 120
+".hack.html.text":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".hackfragment.source":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".hg-commit.text":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".ini.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.react.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    preferredLineLength: 100
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.source":
+  editor:
+    preferredLineLength: 120
+".js.source.subtlegradient":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".json.source":
+  editor:
+    preferredLineLength: 100
+    tabLength: 2
+".json5.source":
+  editor:
+    preferredLineLength: 100
+".plist.source":
+  editor:
+    preferredLineLength: 120
+".plist.text.xml":
+  editor:
+    preferredLineLength: 120
+".shell-session.text":
+  editor:
+    preferredLineLength: 100
+".shell.source":
+  editor:
+    preferredLineLength: 100
