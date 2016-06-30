@@ -48,8 +48,8 @@ if [ -d "$dotfiles" -a -d "$dotfiles"/.git ]; then
   fi
 
   echo "$message"
-  # git pull --rebase origin master
-  # git push origin master
+  git pull --rebase origin master
+  git push origin master
   cd ..
 fi
 
