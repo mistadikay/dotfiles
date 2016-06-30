@@ -1,0 +1,67 @@
+# OS X Paraphernalia
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Windows Paraphernalia
+Thumbs.db
+ehthumbs.db
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# Installers
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Logs
+logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Vim
+*.swp
+*.swo
+
+# Node
+node_modules
+
+#Jekyll
+_site/
+.sass-cache/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Go Folders
+_obj
+_test
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp

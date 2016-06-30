@@ -1,0 +1,39 @@
+[user]
+	name = Denis Koltsov
+	email = iam@mistadikay.com
+
+[github]
+	user = mistadikay
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = atom --wait
+
+[push]
+	default = simple
+
+[credential]
+	helper = osxkeychain
+
+[url "https://github.com/"]
+	insteadOf = "gh:"
+
+[url "https://github.com/mistadikay/"]
+	insteadOf = "@:"
+
+[alias]
+	s = status -bs
+	l = log
+	lg = log --color \
+           --graph \
+           --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' \
+           --abbrev-commit --
+	b = checkout -b
+	o = checkout
+	x = !git add -A && git commit
+	p = push
+	f = push -f origin
+	g = pull --rebase
+	r = rebase -i
+	root = rebase -i --root
+	pop = stash pop
