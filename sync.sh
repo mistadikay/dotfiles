@@ -30,4 +30,6 @@ if [ -d "$dotfiles" -a -d "$dotfiles"/.git ]; then
   cd ..
 fi
 
-echo "dotfiles synced."
+printf "\n"
+echo "Synchronization complete."
+printf "\n"
