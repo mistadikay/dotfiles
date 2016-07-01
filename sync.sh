@@ -6,27 +6,6 @@ dotfiles="$HOME/.dotfiles"
 atom="$HOME/.atom"
 brew="$(brew --prefix)/bin/brew"
 isotopes=(config.cson keymap.cson)
-fishconfigdir="config/fish"
-fishfiles=(config.fish fishfile)
-fishfunctions=(cho.fish dsync.fish findp.fish run.fish up.fish)
-
-# Fish files
-mkdir -p $HOME/.$fishconfigdir
-for file in ${fishfiles[@]}; do
-  if [ ! -e $HOME/.$fishconfigdir/$file ]; then
-    echo "Linking $file to $HOME/.$fishconfigdir"
-    ln -s $dotfiles/$fishconfigdir/$file $HOME/.$fishconfigdir/$file
-  fi
-done
-
-# Fish functions
-mkdir -p $HOME/.$fishconfigdir/functions
-for file in ${fishfunctions[@]}; do
-  if [ ! -e $HOME/.$fishconfigdir/functions/$file ]; then
-    echo "Linking $file to $HOME/.$fishconfigdir/functions"
-    ln -s $dotfiles/$fishconfigdir/functions/$file $HOME/.$fishconfigdir/functions/$file
-  fi
-done
 
 # Atom's configuration.
 if [ -d "$atom" ]; then

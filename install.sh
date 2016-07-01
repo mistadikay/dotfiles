@@ -19,6 +19,9 @@ bash $dotfiles/git/install.sh
 # Vim
 bash $dotfiles/vim/install.sh
 
+# Fish
+bash $dotfiles/fish/install.sh
+
 # set symlinks from .dotfiles
 bash $dotfiles/sync.sh
 
