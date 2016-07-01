@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Symlink fish stuff
+# Install fish stuff
 
 src="$HOME/.dotfiles/fish"
 dest="$HOME/.config/fish"
@@ -8,6 +8,9 @@ files=(config.fish fishfile)
 functions=(cho.fish dsync.fish findp.fish run.fish up.fish)
 
 echo "Installing Fish dotfiles"
+
+# install fishmarks
+curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
 
 echo "└── Linking to $dest:"
 mkdir -p $dest
