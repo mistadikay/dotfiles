@@ -9,6 +9,7 @@ dotfiles="$HOME/.dotfiles"
 brew="$(brew --prefix)/bin/brew"
 
 bash $dotfiles/homebrew/sync.sh
+bash $dotfiles/npm/sync.sh
 
 echo "Syncing changes to the repo"
 if [ -d "$dotfiles" -a -d "$dotfiles"/.git ]; then
