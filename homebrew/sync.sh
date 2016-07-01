@@ -49,3 +49,5 @@ for CASK in `cat $dotfiles/homebrew/brew-sync.casks`; do
 	$brew cask list -1 ${CASK} >/dev/null
 	[ "$?" != "0" ] && $brew cask install ${CASK}
 done
+
+printf "\n"

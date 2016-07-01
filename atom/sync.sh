@@ -27,3 +27,5 @@ for package in `cat $src/atom-sync.installed`; do
 	    apm install $package
 	fi
 done
+
+printf "\n"
