@@ -6,9 +6,9 @@ function up
 	# brew
 	brew update --rebase
 	brew upgrade --all
-	sudo brew cleanup -s --force
-	sudo brew cask cleanup
-	sudo brew prune
+	brew cleanup -s --force
+	brew cask cleanup
+	brew prune
 
 	# https://github.com/fish-shell/fish-shell/blob/master/doc_src/fish_update_completions.txt
 	fish_update_completions
