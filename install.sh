@@ -6,25 +6,15 @@
 
 dotfiles="$HOME/.dotfiles"
 
-# set hostname
-scutil --set HostName mistadikay
-
-# Bash
+# Install, setup and symlink everything
+bash $dotfiles/macos/install.sh
 bash $dotfiles/bash/install.sh
-
-# Git
 bash $dotfiles/git/install.sh
-
-# Fish
 bash $dotfiles/fish/install.sh
-
-# Vim
 bash $dotfiles/vim/install.sh
-
-# Atom
 bash $dotfiles/atom/install.sh
 
-# set symlinks from .dotfiles
+# Synchronize
 bash $dotfiles/sync.sh
 
 echo "\(• ◡ •)/      dotfiles installed!     ᕕ( ᐛ )ᕗ"
