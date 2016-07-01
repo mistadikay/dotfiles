@@ -6,6 +6,9 @@ dotfiles="$HOME/.dotfiles"
 atom="$HOME/.atom"
 brew="$(brew --prefix)/bin/brew"
 isotopes=(config.cson keymap.cson)
+fishconfigdir="config/fish"
+fishfiles=(config.fish fishfile)
+fishfunctions=(cho.fish dsync.fish findp.fish run.fish up.fish)
 files=(gitconfig gitignore vim vimrc bashrc bash_profile)
 
 # Dotfiles, .vim .gitconfig, .bashrc, etc.
@@ -13,6 +16,24 @@ for file in ${files[@]}; do
   if [ ! -e $HOME/.$file ]; then
     echo "Linking $file to $HOME"
     ln -s $dotfiles/$file $HOME/.$file
+  fi
+done
+
+# Fish files
+mkdir -p $HOME/.$fishconfigdir
+for file in ${fishfiles[@]}; do
+  if [ ! -e $HOME/.$fishconfigdir/$file ]; then
+    echo "Linking $file to $HOME/.$fishconfigdir"
+    ln -s $dotfiles/$fishconfigdir/$file $HOME/.$fishconfigdir/$file
+  fi
+done
+
+# Fish functions
+mkdir -p $HOME/.$fishconfigdir/functions
+for file in ${fishfunctions[@]}; do
+  if [ ! -e $HOME/.$fishconfigdir/functions/$file ]; then
+    echo "Linking $file to $HOME/.$fishconfigdir/functions"
+    ln -s $dotfiles/$fishconfigdir/functions/$file $HOME/.$fishconfigdir/functions/$file
   fi
 done
 
@@ -55,7 +76,7 @@ cat /tmp/brew-sync.taps | sort | uniq > $dotfiles/homebrew/brew-sync.taps
 cat /tmp/brew-sync.installed | sort | uniq > $dotfiles/homebrew/brew-sync.installed
 cat /tmp/brew-sync.casks | sort | uniq > $dotfiles/homebrew/brew-sync.casks
 
-echo "Enabling taps ..."
+echo "Enabling taps..."
 for TAP in `cat $dotfiles/homebrew/brew-sync.taps`; do
 	$brew tap ${TAP} >/dev/null
 done
