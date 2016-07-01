@@ -2,16 +2,18 @@
 #
 # Symlink git stuff
 
-dotfiles="$HOME/.dotfiles"
-dir="$dotfiles/git"
+src="$HOME/.dotfiles/git"
+dest=$HOME
 files=(.gitconfig .gitignore)
 
 echo "Installing Git dotfiles"
-for file in ${files[@]}; do
-  echo "└── Linking $file to $HOME"
 
-  rm $HOME/$file
-  ln -s $dir/$file $HOME/$file
+echo "└── Linking to $dest:"
+for file in ${files[@]}; do
+  echo "    └── $file"
+
+  rm $dest/$file
+  ln -s $src/$file $dest/$file
 done
 
 printf "\n"

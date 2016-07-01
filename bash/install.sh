@@ -2,16 +2,18 @@
 #
 # Symlink bash stuff
 
-dotfiles="$HOME/.dotfiles"
-dir="$dotfiles/bash"
+src="$HOME/.dotfiles/bash"
+dest="$HOME"
 files=(.bashrc .bash_profile)
 
 echo "Installing Bash dotfiles"
-for file in ${files[@]}; do
-  echo "└── Linking $file to $HOME"
 
-  rm $HOME/$file
-  ln -s $dir/$file $HOME/$file
+echo "└── Linking to $dest:"
+for file in ${files[@]}; do
+  echo "    └── $file"
+
+  rm $dest/$file
+  ln -s $src/$file $dest/$file
 done
 
 printf "\n"

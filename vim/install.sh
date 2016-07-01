@@ -2,16 +2,18 @@
 #
 # Symlink vim stuff
 
-dotfiles="$HOME/.dotfiles"
-dir="$dotfiles/vim"
+src="$HOME/.dotfiles/vim"
+dest=$HOME
 files=(.vim .vimrc)
 
 echo "Installing Vim dotfiles"
-for file in ${files[@]}; do
-  echo "└── Linking $file to $HOME"
 
-  rm -rf $HOME/$file
-  ln -s $dir/$file $HOME/$file
+echo "└── Linking to $dest:"
+for file in ${files[@]}; do
+  echo "    └── $file"
+
+  rm -rf $dest/$file
+  ln -s $src/$file $dest/$file
 done
 
 printf "\n"
