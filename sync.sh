@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # Run to symlink / sync dotfiles to remote repo.
 

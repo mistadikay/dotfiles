@@ -1,3 +1,3 @@
 function dsync
-    sh ~/.dotfiles/sync.sh
+    bash ~/.dotfiles/sync.sh
 end
