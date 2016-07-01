@@ -10,8 +10,14 @@ scutil --set HostName mistadikay
 # install fishmarks
 curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
 
+# Bash
+bash $dotfiles/bash/install.sh
+
 # Git
-$dotfiles/git/install.sh
+bash $dotfiles/git/install.sh
 
 # set symlinks from .dotfiles
-./sync.sh
+bash $dotfiles/sync.sh
+
+echo "\(• ◡ •)/      dotfiles installed!     ᕕ( ᐛ )ᕗ"
+printf "\n"

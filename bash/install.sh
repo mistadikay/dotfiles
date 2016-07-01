@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #
-# Symlink git stuff
+# Symlink bash stuff
 
 dotfiles="$HOME/.dotfiles"
-dir="$dotfiles/git"
-files=(.gitconfig .gitignore)
+dir="$dotfiles/bash"
+files=(.bashrc .bash_profile)
 
-echo "Installing Git dotfiles"
+echo "Installing Bash dotfiles"
 for file in ${files[@]}; do
   echo "└── Linking $file to $HOME"
 
