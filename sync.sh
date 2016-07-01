@@ -1,29 +1,12 @@
 #!/usr/bin/env bash
 #
-# Run to symlink / sync dotfiles to remote repo.
+# Synchronization
+#
+# 1. synchornize everything that is not symlinked
+# 2. push changes to .dotfiles repo
 
 dotfiles="$HOME/.dotfiles"
-atom="$HOME/.atom"
 brew="$(brew --prefix)/bin/brew"
-isotopes=(config.cson keymap.cson)
-
-# Atom's configuration.
-if [ -d "$atom" ]; then
-  echo "Syncing Atom"
-  for isotope in ${isotopes[@]}; do
-    echo "isotope: $isotope"
-    # Target should exist and not be a symlink
-    if [ -e $atom/$isotope -a ! -h $atom/$isotope ]; then
-      isotope_old=$(mktemp $atom/$isotope.XXXX)
-      mv $atom/$isotope $isotope_old
-    fi
-    # Create new symlinks if there isn't any already.
-    if [ ! -h $atom/$isotope ]; then
-      echo "Linking $isotope to $atom"
-      ln -s $dotfiles/atom/$isotope $atom/$isotope
-    fi
-  done
-fi
 
 # Homebrew
 # from https://gist.github.com/witt3rd/894c9e0b9ca4e24e5574
