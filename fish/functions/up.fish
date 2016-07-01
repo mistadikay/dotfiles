@@ -18,6 +18,9 @@ function up
 	git fetch --all
 	git reset --hard origin/master
 
+	# update fisher
+	fisher update
+
 	# update npm and global npm packages
 	npm i npm -g
 	npm update -g

@@ -12,6 +12,10 @@ echo "Installing Fish dotfiles"
 # install fishmarks
 curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
 
+# install fisherman
+curl -sLo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+fisher
+
 echo "└── Linking to $dest:"
 mkdir -p $dest
 for file in ${files[@]}; do
