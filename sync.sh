@@ -9,7 +9,7 @@ isotopes=(config.cson keymap.cson)
 fishconfigdir="config/fish"
 fishfiles=(config.fish fishfile)
 fishfunctions=(cho.fish dsync.fish findp.fish run.fish up.fish)
-files=(gitconfig gitignore vim vimrc bashrc bash_profile)
+files=(vim vimrc bashrc bash_profile)
 
 # Dotfiles, .vim .gitconfig, .bashrc, etc.
 for file in ${files[@]}; do
