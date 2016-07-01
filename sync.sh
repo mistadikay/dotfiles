@@ -41,7 +41,7 @@ echo "Syncing Homebrew..."
 echo "Reading local settings..."
 rm -f /tmp/brew-sync.*
 $brew tap > /tmp/brew-sync.taps
-$brew list > /tmp/brew-sync.installed
+$brew leaves > /tmp/brew-sync.installed
 $brew cask list -1 > /tmp/brew-sync.casks
 
 echo "Reading settings from dotfiles repo..."
@@ -62,7 +62,7 @@ done
 
 echo "Install missing packages..."
 for PACKAGE in `cat $dotfiles/homebrew/brew-sync.installed`; do
-	$brew list ${PACKAGE} >/dev/null
+	$brew leaves ${PACKAGE} >/dev/null
 	[ "$?" != "0" ] && $brew install ${PACKAGE}
 done
 
