@@ -11,6 +11,7 @@ bash $dotfiles/macos/install.sh
 bash $dotfiles/bash/install.sh
 bash $dotfiles/git/install.sh
 bash $dotfiles/fish/install.sh
+bash $dotfiles/npm/install.sh
 bash $dotfiles/vim/install.sh
 bash $dotfiles/atom/install.sh
 
