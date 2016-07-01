@@ -7,8 +7,8 @@ src="$HOME/.dotfiles/atom"
 echo "Syncing Atom"
 echo "└── Reading local settings"
 rm -f /tmp/atom-sync.installed
-for PACKAGE in `apm list --installed --bare`; do
-	echo $(echo $PACKAGE | cut -d '@' -f 1) >> /tmp/atom-sync.installed
+for package in `apm list --installed --bare`; do
+	echo $(echo $package | cut -d '@' -f 1) >> /tmp/atom-sync.installed
 done
 
 echo "│"
@@ -22,4 +22,8 @@ cat /tmp/atom-sync.installed | sort | uniq > $src/atom-sync.installed
 
 echo "│"
 echo "└── Install missing packages..."
-apm install --packages-file $src/atom-sync.installed
+for package in `cat $src/atom-sync.installed`; do
+	if [[ ! -d "$HOME/.atom/packages/$package" ]]; then
+	    apm install $package
+	fi
+done
