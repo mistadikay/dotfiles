@@ -16,6 +16,9 @@ bash $dotfiles/bash/install.sh
 # Git
 bash $dotfiles/git/install.sh
 
+# Vim
+bash $dotfiles/vim/install.sh
+
 # set symlinks from .dotfiles
 bash $dotfiles/sync.sh
 
