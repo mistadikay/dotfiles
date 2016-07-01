@@ -15,5 +15,5 @@ git clone --recursive https://github.com/mistadikay/dotfiles ~/.dotfiles && sh ~
 sh ~/.dotfiles/sync.sh
 
 # or using fish
-syncdot
+dsync
 ```
