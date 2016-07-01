@@ -17,7 +17,3 @@ sh ~/.dotfiles/sync.sh
 # or using fish
 syncdot
 ```
-
-## License
-
-MIT, [Denis Koltsov](https://mistadikay.com/) © 2016
