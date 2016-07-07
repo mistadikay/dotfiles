@@ -28,7 +28,7 @@ if [ -d "$dotfiles" -a -d "$dotfiles"/.git ]; then
 
   echo "$message"
   git pull --rebase origin master
-  git push origin master
+  # git push origin master
   cd ..
 fi
 
