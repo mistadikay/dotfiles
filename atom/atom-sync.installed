@@ -3,6 +3,7 @@ Remote-FTP
 atom-beautify
 atom-react-native-autocomplete
 atom-ternjs
+atom-typescript
 autocomplete-go
 autocomplete-paths
 builder-go
