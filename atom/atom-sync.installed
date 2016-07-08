@@ -27,6 +27,7 @@ highlight-selected
 hyperclick
 hyperlink-hyperclick
 js-hyperclick
+language-applescript
 language-babel
 language-fish-shell
 language-gitignore

@@ -1,5 +1,6 @@
 archey
 cmake
+coreutils
 exercism
 fish
 flow
@@ -11,11 +12,13 @@ graphicsmagick
 htop
 libvo-aacenc
 mackup
+macvim
 mongodb
 mpg123
 mpv
 nvm
 planck
+python
 python3
 rename
 the_silver_searcher
