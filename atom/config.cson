@@ -20,6 +20,7 @@
   "go-debug":
     panelInitialVisible: false
   linter:
+    errorPanelHeight: 28
     lintOnFly: false
     showErrorInline: false
   "linter-stylelint":

@@ -43,6 +43,10 @@ _site/
 _obj
 _test
 
+# Atom related
+.ftpconfig
+.tern-project
+
 # Archives
 *.7z
 *.jar
