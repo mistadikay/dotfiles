@@ -39,6 +39,9 @@ _site/
 *.a
 *.so
 
+# Git
+.gitconfig
+
 # Go Folders
 _obj
 _test

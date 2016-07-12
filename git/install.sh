@@ -4,7 +4,7 @@
 
 src="$HOME/.dotfiles/git"
 dest=$HOME
-files=(.gitconfig .gitignore)
+files=(gitconfig gitignore)
 
 echo "Installing Git dotfiles"
 
@@ -13,7 +13,7 @@ for file in ${files[@]}; do
   echo "    └── $file"
 
   rm $dest/$file
-  ln -s $src/$file $dest/$file
+  ln -s $src/$file $dest/.$file
 done
 
 printf "\n"
