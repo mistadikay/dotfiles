@@ -24,6 +24,6 @@ cat /tmp/npm-sync.installed | sort | uniq > $src/npm-sync.installed
 
 echo "│"
 echo "└── Install missing packages..."
-npm install -g $(cat $src/npm-sync.installed | tr \n ' ')
+npm install -g $(cat $src/npm-sync.installed | tr \\n ' ')
 
 printf "\n"

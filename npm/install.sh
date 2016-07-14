@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Symlink git stuff
+# Symlink npm stuff
 
 src="$HOME/.dotfiles/npm"
 dest=$HOME
