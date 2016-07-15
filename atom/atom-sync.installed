@@ -4,10 +4,13 @@ atom-beautify
 atom-react-native-autocomplete
 atom-ternjs
 atom-typescript
+autoclose-html
 autocomplete-go
 autocomplete-paths
 builder-go
+code-peek
 docblockr
+double-tag
 editorconfig
 emmet
 environment
