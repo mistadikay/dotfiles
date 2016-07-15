@@ -8,8 +8,12 @@
       "path-hyperclick"
       "Parinfer"
       "linter-stylelint"
+      "linter-clojure"
+      "language-clojure"
     ]
   editor:
+    fontFamily: "FiraCode-Light"
+    fontSize: 13
     tabLength: 4
   "exception-reporting":
     userId: "5c8145d0-f8d3-afde-89d8-7b32c168ac94"

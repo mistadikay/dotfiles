@@ -18,3 +18,8 @@ bash ~/.dotfiles/sync.sh
 # or using fish
 dsync
 ```
+
+### fonts
+
+- Source Code Pro: https://github.com/adobe-fonts/source-code-pro
+- Fira Code: https://github.com/tonsky/FiraCode

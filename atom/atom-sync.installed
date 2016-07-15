@@ -16,7 +16,6 @@ emmet
 environment
 file-hyperclick
 file-icons
-fonts
 git-time-machine
 go-config
 go-debug
@@ -40,7 +39,6 @@ linter-clojure
 linter-eslint
 linter-flow
 linter-stylelint
-livestyle-atom
 merge-conflicts
 minimap
 minimap-find-and-replace
