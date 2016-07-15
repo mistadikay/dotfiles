@@ -9,6 +9,9 @@ set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
 set --export GO15VENDOREXPERIMENT 1
 
+# for homebrew
+set --export PATH /usr/local/sbin $PATH
+
 # https://github.com/rgcr/m-cli
 set --export PATH /usr/local/m-cli $PATH
 
