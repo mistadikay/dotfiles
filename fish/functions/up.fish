@@ -13,6 +13,9 @@ function up
 	# https://github.com/fish-shell/fish-shell/blob/master/doc_src/fish_update_completions.txt
 	fish_update_completions
 
+	# https://github.com/rgcr/m-cli
+	m --update
+
 	# update fishmarks (https://github.com/techwizrd/fishmarks)
 	cd ~/.fishmarks
 	git fetch --all
