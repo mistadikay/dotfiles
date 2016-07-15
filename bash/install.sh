@@ -4,7 +4,7 @@
 
 src="$HOME/.dotfiles/bash"
 dest="$HOME"
-files=(.bashrc .bash_profile)
+files=(.bashrc .bash_profile .profile)
 
 echo "Installing Bash dotfiles"
 
