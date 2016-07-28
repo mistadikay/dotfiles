@@ -22,6 +22,7 @@
     onChanges: true
   fonts:
     fontFamily: "Source Code Pro Light"
+  "go-config": {}
   "go-debug":
     panelInitialVisible: false
   linter:
@@ -48,7 +49,6 @@
   "project-manager":
     environmentSpecificProjects: true
   "tree-view":
-    autoReveal: true
     focusOnReveal: false
     hideIgnoredNames: true
   welcome:
