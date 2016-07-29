@@ -11,3 +11,4 @@ rake
 rdoc
 test-unit
 thor
+tmuxinator

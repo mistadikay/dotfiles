@@ -9,6 +9,9 @@ alias c "clear"
 alias b "babel-node"
 alias fi "fisher"
 
+# for tmuxinator
+set --export EDITOR "atom"
+
 # Go
 set --export GOPATH $HOME/Go
 set --export PATH $GOPATH/bin $PATH
