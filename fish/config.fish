@@ -8,6 +8,7 @@ bass source $HOME/.nvm/nvm.sh >/dev/null ^&1
 alias c "clear"
 alias b "babel-node"
 alias fi "fisher"
+alias tx "tmuxinator"
 
 # for tmuxinator
 set --export EDITOR "atom"
