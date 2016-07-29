@@ -1,3 +1,6 @@
+# remove greeting
+set fish_greeting
+
 # Set aliases
 alias c "clear"
 alias b "babel-node"
@@ -15,6 +18,7 @@ set --export PATH /usr/local/sbin $PATH
 # https://github.com/rgcr/m-cli
 set --export PATH /usr/local/m-cli $PATH
 
+# fisher stuff
 set fisher_home ~/.local/share/fisherman
 set fisher_config ~/.config/fisherman
 source $fisher_home/config.fish
