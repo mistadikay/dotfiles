@@ -13,7 +13,6 @@ docblockr
 double-tag
 editorconfig
 emmet
-environment
 file-hyperclick
 file-icons
 git-time-machine
@@ -34,12 +33,12 @@ language-babel
 language-fish-shell
 language-gitignore
 language-javascript-jsx
+language-tmux
 linter
 linter-clojure
 linter-eslint
 linter-flow
 linter-stylelint
-merge-conflicts
 minimap
 minimap-find-and-replace
 minimap-git-diff
@@ -49,7 +48,6 @@ minimap-selection
 navigator-godef
 node-debugger
 open-in-browser
-package-sync
 pigments
 pretty-json
 project-manager
