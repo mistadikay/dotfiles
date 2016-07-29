@@ -9,6 +9,7 @@ module.exports = {
     // terminal cursor background color (hex)
     cursorColor: '#F81CE5',
 
+    // The shape of the caret in the terminal. Available options are: 'BEAM', 'UNDERLINE', 'BLOCK'
     cursorShape: 'BEAM',
 
     // color of the text
@@ -27,7 +28,9 @@ module.exports = {
     termCSS: '',
 
     // custom padding
-    padding: '12px 14px',
+    padding: '0 14px',
+
+    windowSize: [ 1440, 875 ],
 
     // some color overrides. see http://bit.ly/29k1iU2 for
     // the full list
@@ -57,12 +60,7 @@ module.exports = {
   //   `hypersolar`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-      'hyperterm-atom-dark',
-      'hyperline',
-      'hyperterm-blink',
-      'hypercwd'
-  ],
+  plugins: ['hyperterm-atom-dark', 'hyperterm-blink', 'hypercwd'],
 
   // in development, you can create a directory under
   // `~/.hyperterm_plugins/local/` and include it here
