@@ -5,7 +5,7 @@
 src="$HOME/.dotfiles/fish"
 dest="$HOME/.config/fish"
 files=(config.fish fishfile)
-functions=(cho.fish dsync.fish findp.fish notify.fish nv.fish run.fish up.fish)
+functions=(cho.fish dsync.fish findp.fish fish_prompt.fish fish_right_prompt.fish notify.fish nv.fish run.fish up.fish)
 
 echo "Installing Fish dotfiles"
 
