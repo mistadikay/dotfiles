@@ -10,6 +10,11 @@ alias b "babel-node"
 alias fi "fisher"
 alias tx "tmuxinator"
 
+# attach default tmux session
+if [ -z $TMUX ]
+    tmux attach -t default; or tmux new -s default
+end
+
 # for tmuxinator
 set --export EDITOR "atom"
 
