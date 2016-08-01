@@ -6,9 +6,11 @@ fish
 flow
 git
 git-extras
+git-lfs
 glide
 gnu-sed
 graphicsmagick
+homebrew/dupes/grep
 htop
 libvo-aacenc
 m-cli
