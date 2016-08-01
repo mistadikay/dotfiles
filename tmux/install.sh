@@ -6,6 +6,9 @@ src="$HOME/.dotfiles/tmux"
 dest=$HOME
 files=(.tmux.conf)
 
+echo "Installing Tmux Plugin Manager"
+git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+
 echo "Installing Tmux config"
 
 echo "└── Linking to $dest:"
