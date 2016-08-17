@@ -162,6 +162,3 @@
 ".shell.source":
   editor:
     preferredLineLength: 100
-".source.tmux":
-  editor:
-    tabLength: 4

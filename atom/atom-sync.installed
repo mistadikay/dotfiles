@@ -33,7 +33,6 @@ language-babel
 language-fish-shell
 language-gitignore
 language-javascript-jsx
-language-tmux
 linter
 linter-clojure
 linter-eslint
