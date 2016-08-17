@@ -44,11 +44,6 @@
 	interactive = auto
 	status = auto
 
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
-
 [interactive]
 	diffFilter = diff-highlight
 
@@ -59,3 +54,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/lazhcm10348/.stCommitMsg

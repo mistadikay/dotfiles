@@ -1,9 +1,11 @@
 awm
+babel-cli
 bower
 hpm-cli
 npm
 pm
 pm2
+react-monocle
 speed-test
 svgo
 trash-cli
