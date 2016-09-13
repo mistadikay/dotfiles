@@ -22,7 +22,6 @@
       "gorename"
       "navigator-godef"
       "tester-go"
-      "linter-flow"
     ]
     ignoredNames: [
       ".git"

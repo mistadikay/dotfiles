@@ -12,6 +12,7 @@ gnu-sed
 graphicsmagick
 homebrew/dupes/grep
 htop
+libevent
 libvo-aacenc
 m-cli
 mackup
@@ -20,6 +21,7 @@ mongodb
 mpg123
 mpv
 nvm
+ocamlbuild
 planck
 python
 python3

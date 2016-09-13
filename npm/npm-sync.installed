@@ -1,11 +1,15 @@
 awm
 babel-cli
 bower
+flow-bin
+flow-typed
 hpm-cli
 npm
 pm
 pm2
 react-monocle
+reactotron-cli
+snyk
 speed-test
 svgo
 trash-cli
