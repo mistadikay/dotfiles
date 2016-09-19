@@ -1,13 +1,7 @@
-afflib
 caskroom/cask
-darcs
-elvish
 homebrew/binary
 homebrew/core
 homebrew/dupes
 homebrew/services
-macvim
 mpv-player/mpv
-mysql-sandbox
-redpen
 tomanthony/brews

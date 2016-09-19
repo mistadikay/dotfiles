@@ -32,6 +32,7 @@ language-applescript
 language-babel
 language-fish-shell
 language-gitignore
+language-graphql
 language-javascript-jsx
 linter
 linter-clojure

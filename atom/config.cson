@@ -103,6 +103,9 @@
 ".gitignore.source":
   editor:
     preferredLineLength: 120
+".graphql.source":
+  editor:
+    tabLength: 4
 ".hack.html.text":
   editor:
     preferredLineLength: 100

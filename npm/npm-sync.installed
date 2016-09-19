@@ -2,7 +2,6 @@ awm
 babel-cli
 bower
 flow-bin
-flow-typed
 hpm-cli
 npm
 pm
