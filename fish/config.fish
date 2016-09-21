@@ -20,9 +20,6 @@ set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
 set --export GO15VENDOREXPERIMENT 1
 
-# for homebrew
-set --export PATH /usr/local/sbin $PATH
-
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
 
