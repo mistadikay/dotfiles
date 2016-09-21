@@ -2,6 +2,8 @@ caskroom/cask
 homebrew/binary
 homebrew/core
 homebrew/dupes
+homebrew/php
 homebrew/services
+homebrew/versions
 mpv-player/mpv
 tomanthony/brews

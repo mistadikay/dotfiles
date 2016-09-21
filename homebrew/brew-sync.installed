@@ -1,6 +1,8 @@
 archey
+cask
 cmake
 coreutils
+emacs
 exercism
 fish
 flow
@@ -11,7 +13,9 @@ glide
 gnu-sed
 graphicsmagick
 homebrew/dupes/grep
+homebrew/php/php55
 htop
+leiningen
 libevent
 libvo-aacenc
 m-cli
@@ -26,6 +30,7 @@ planck
 python
 python3
 rename
+rlwrap
 ruby
 the_silver_searcher
 tomanthony/brews/itermocil
@@ -33,3 +38,4 @@ tree
 watch
 watchman
 wine
+youtube-dl
