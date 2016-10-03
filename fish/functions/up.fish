@@ -5,7 +5,7 @@ function up
 
 	# brew
 	brew update --rebase
-	brew upgrade --all
+	brew upgrade
 	brew cleanup -s --force
 	brew cask cleanup
 	brew prune

@@ -18,6 +18,7 @@ htop
 leiningen
 libevent
 libvo-aacenc
+libxml2
 m-cli
 mackup
 macvim
@@ -35,6 +36,7 @@ ruby
 the_silver_searcher
 tomanthony/brews/itermocil
 tree
+unixodbc
 watch
 watchman
 wine

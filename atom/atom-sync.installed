@@ -50,6 +50,7 @@ minimap-git-diff
 minimap-highlight-selected
 minimap-pigments
 minimap-selection
+navigator-go
 navigator-godef
 node-debugger
 open-in-browser

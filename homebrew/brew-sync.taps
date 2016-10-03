@@ -6,4 +6,5 @@ homebrew/php
 homebrew/services
 homebrew/versions
 mpv-player/mpv
+smockle/iojs
 tomanthony/brews
