@@ -14,7 +14,7 @@ function __print_color
 end
 
 function fish_prompt -d "Simple Fish Prompt"
-    notify
+    # notify
 
     echo -e ""
 

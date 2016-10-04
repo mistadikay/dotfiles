@@ -4,7 +4,6 @@
   "advanced-open-file": {}
   core:
     disabledPackages: [
-      "language-javascript-jsx"
       "path-hyperclick"
       "Parinfer"
       "linter-stylelint"
@@ -20,7 +19,6 @@
       "go-plus"
       "gometalinter-linter"
       "gorename"
-      "navigator-godef"
       "tester-go"
     ]
     ignoredNames: [
@@ -47,7 +45,7 @@
   "go-debug":
     panelInitialVisible: false
   linter:
-    errorPanelHeight: 78
+    errorPanelHeight: 24
     lintOnFly: false
     showErrorInline: false
   "linter-stylelint":
