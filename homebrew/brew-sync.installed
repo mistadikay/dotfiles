@@ -15,6 +15,7 @@ glide
 gnu-sed
 graphicsmagick
 homebrew/dupes/grep
+homebrew/php/php55
 htop
 leiningen
 libevent
@@ -41,4 +42,5 @@ unixodbc
 watch
 watchman
 wine
+yarn
 youtube-dl

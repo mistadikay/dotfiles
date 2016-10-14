@@ -30,6 +30,7 @@
       "Thumbs.db"
       "coverage"
     ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "Hasklig-Light"
     fontSize: 16
@@ -44,8 +45,10 @@
   "go-config": {}
   "go-debug":
     panelInitialVisible: false
+  "language-elm":
+    elmOraclePath: "/Users/deniskoltsov/.config/fnm/bin/elm-oracle"
   linter:
-    errorPanelHeight: 24
+    errorPanelHeight: 166
     lintOnFly: false
     showErrorInline: false
   "linter-stylelint":
@@ -67,6 +70,8 @@
       selectionDecorationsZIndex: 0
   "project-manager":
     environmentSpecificProjects: true
+  sunset:
+    has_been_configured: true
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
@@ -95,6 +100,9 @@
 ".css.less.source":
   editor:
     preferredLineLength: 100
+".elm.source":
+  editor:
+    tabLength: 4
 ".gfm.html.markdown.mson.source.text":
   editor:
     preferredLineLength: 100
