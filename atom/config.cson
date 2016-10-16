@@ -6,7 +6,6 @@
     disabledPackages: [
       "path-hyperclick"
       "Parinfer"
-      "linter-stylelint"
       "linter-clojure"
       "language-clojure"
       "go-config"
