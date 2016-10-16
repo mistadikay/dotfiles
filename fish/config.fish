@@ -1,9 +1,6 @@
 # remove greeting
 set fish_greeting
 
-# autoload nvm
-bass source $HOME/.nvm/nvm.sh >/dev/null ^&1
-
 # Set aliases
 alias c "clear"
 alias b "babel-node"
