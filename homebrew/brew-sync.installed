@@ -27,7 +27,9 @@ macvim
 mongodb
 mpg123
 mpv
+node
 ocamlbuild
+phantomjs
 planck
 python
 python3
@@ -41,5 +43,4 @@ unixodbc
 watch
 watchman
 wine
-yarn
 youtube-dl
