@@ -19,6 +19,8 @@
       "gometalinter-linter"
       "gorename"
       "tester-go"
+      "linter-stylelint"
+      "language-javascript-jsx"
     ]
     ignoredNames: [
       ".git"
@@ -30,6 +32,12 @@
       "coverage"
     ]
     telemetryConsent: "no"
+  docblockr:
+    align_tags: "no"
+    extend_double_slash: false
+    param_description: false
+    return_description: false
+    simple_mode: true
   editor:
     fontFamily: "Hasklig-Light"
     fontSize: 16
