@@ -37,6 +37,7 @@ language-elm
 language-fish-shell
 language-gitignore
 language-graphql
+language-graphql-lb
 language-javascript-jsx
 linter
 linter-clojure

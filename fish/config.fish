@@ -6,6 +6,9 @@ alias c "clear"
 alias b "babel-node"
 alias fi "fisher"
 alias tc "itermocil"
+alias brc "brew cask"
+alias brci "brew cask install"
+alias brcu "brew cask uninstall"
 
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion

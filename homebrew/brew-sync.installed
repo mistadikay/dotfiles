@@ -4,6 +4,7 @@ cask
 cmake
 coreutils
 emacs
+erlang
 exercism
 ffmpeg
 fish
@@ -24,6 +25,7 @@ libxml2
 m-cli
 mackup
 macvim
+mas
 mongodb
 mpg123
 mpv

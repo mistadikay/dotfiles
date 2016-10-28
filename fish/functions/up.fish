@@ -3,6 +3,9 @@ function up
 	# show mac updates
 	softwareupdate -l
 
+	# upgrade mac apps
+	mas upgrade
+
 	# brew
 	brew update --rebase
 	brew upgrade
