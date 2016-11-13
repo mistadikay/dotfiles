@@ -14,6 +14,7 @@ git-extras
 git-lfs
 glide
 gnu-sed
+gnupg2
 graphicsmagick
 homebrew/dupes/grep
 homebrew/php/php55

@@ -5,22 +5,6 @@
   core:
     disabledPackages: [
       "path-hyperclick"
-      "Parinfer"
-      "linter-clojure"
-      "language-clojure"
-      "go-config"
-      "go-debug"
-      "go-get"
-      "go-hyperclick"
-      "autocomplete-go"
-      "builder-go"
-      "gofmt"
-      "go-plus"
-      "gometalinter-linter"
-      "gorename"
-      "tester-go"
-      "linter-stylelint"
-      "language-javascript-jsx"
     ]
     ignoredNames: [
       ".git"
@@ -52,12 +36,15 @@
   "go-config": {}
   "go-debug":
     panelInitialVisible: false
+  "language-babel":
+    autoIndentJSX: false
   "language-elm":
     elmOraclePath: "/Users/deniskoltsov/.config/fnm/bin/elm-oracle"
   linter:
     errorPanelHeight: 166
     lintOnFly: false
     showErrorInline: false
+  "linter-eslint": {}
   "linter-stylelint":
     disableWhenNoConfig: true
   "livestyle-atom":
@@ -98,6 +85,7 @@
 ".babel.regexp.source":
   editor:
     preferredLineLength: 100
+    tabLength: 4
 ".clojure.source":
   editor:
     preferredLineLength: 100
@@ -107,6 +95,12 @@
 ".css.less.source":
   editor:
     preferredLineLength: 100
+".css.source.styled":
+  editor:
+    tabLength: 4
+".editorconfig.source":
+  editor:
+    tabLength: 4
 ".elm.source":
   editor:
     tabLength: 4
@@ -165,6 +159,9 @@
 ".json5.source":
   editor:
     preferredLineLength: 100
+".languagebabel.ttlextension":
+  editor:
+    tabLength: 4
 ".plist.source":
   editor:
     preferredLineLength: 120
