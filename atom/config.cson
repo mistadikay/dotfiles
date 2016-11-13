@@ -40,10 +40,11 @@
     autoIndentJSX: false
   "language-elm":
     elmOraclePath: "/Users/deniskoltsov/.config/fnm/bin/elm-oracle"
+  "language-elm-make":
+    elmOraclePath: "/Users/deniskoltsov/.config/fnm/bin/elm-make"
   linter:
     errorPanelHeight: 166
     lintOnFly: false
-    showErrorInline: false
   "linter-eslint": {}
   "linter-stylelint":
     disableWhenNoConfig: true
