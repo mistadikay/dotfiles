@@ -1,6 +1,8 @@
 atom-ternjs
 autoclose-html
+autocomplete-go
 autocomplete-paths
+builder-go
 chester-atom-syntax
 code-peek
 docblockr
@@ -9,6 +11,15 @@ editorconfig
 elm-format
 emmet
 file-icons
+go-config
+go-debug
+go-get
+go-oracle
+go-plus
+godoc
+gofmt
+gometalinter-linter
+gorename
 highlight-selected
 html-to-elm
 language-applescript
@@ -22,6 +33,7 @@ linter
 linter-elm-make
 linter-eslint
 linter-flow
+linter-golinter
 linter-stylelint
 minimap
 minimap-find-and-replace
@@ -29,6 +41,7 @@ minimap-git-diff
 minimap-highlight-selected
 minimap-pigments
 minimap-selection
+navigator-go
 node-debugger
 open-in-browser
 pigments
@@ -37,3 +50,4 @@ project-manager
 regex-railroad-diagram
 resize-indent
 svg-preview
+tester-go

@@ -29356,11 +29356,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>375 282 620 392 0 0 1366 768 </string>
+	<string>375 265 620 392 0 0 1366 746 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 138 918 495 0 0 1366 768 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>4 0 650 746 0 0 1366 746 </string>
+	<string>942 769 714 1056 -261 768 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -30226,7 +30226,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-27T15:42:48Z</date>
+	<date>2016-11-14T08:00:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -30234,7 +30234,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -30278,6 +30278,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.11</string>
+	<string>3.0.12</string>
 </dict>
 </plist>

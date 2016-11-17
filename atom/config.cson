@@ -36,6 +36,8 @@
   "go-config": {}
   "go-debug":
     panelInitialVisible: false
+  gofmt:
+    formatTool: "gofmt"
   "language-babel":
     autoIndentJSX: false
   "language-elm":
@@ -46,6 +48,7 @@
     errorPanelHeight: 166
     lintOnFly: false
   "linter-eslint": {}
+  "linter-golinter": {}
   "linter-stylelint":
     disableWhenNoConfig: true
   "livestyle-atom":
