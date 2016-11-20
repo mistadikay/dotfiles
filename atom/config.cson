@@ -31,11 +31,11 @@
   "file-icons":
     coloured: false
     onChanges: true
-  fonts:
-    fontFamily: "Source Code Pro Light"
   "go-config": {}
   "go-debug":
     panelInitialVisible: false
+  "go-plus":
+    currentPanelHeight: "25.846354166666668vh"
   gofmt:
     formatTool: "gofmt"
   "language-babel":

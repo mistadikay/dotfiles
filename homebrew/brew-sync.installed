@@ -15,6 +15,7 @@ git-lfs
 glide
 gnu-sed
 gnupg2
+go-delve/delve/delve
 graphicsmagick
 homebrew/dupes/grep
 homebrew/php/php55

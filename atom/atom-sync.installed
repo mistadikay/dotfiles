@@ -24,12 +24,15 @@ highlight-selected
 html-to-elm
 language-applescript
 language-babel
+language-docker
 language-elm
 language-fish-shell
 language-gitignore
 language-graphql
 language-graphql-lb
+language-nginx
 linter
+linter-docker
 linter-elm-make
 linter-eslint
 linter-flow

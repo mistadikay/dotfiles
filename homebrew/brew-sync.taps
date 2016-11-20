@@ -1,5 +1,6 @@
 buo/cask-upgrade
 caskroom/cask
+go-delve/delve
 homebrew/binary
 homebrew/core
 homebrew/dupes
