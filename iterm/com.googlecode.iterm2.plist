@@ -29286,7 +29286,7 @@
 	<key>HideTabCloseButton</key>
 	<true/>
 	<key>HideTabNumber</key>
-	<true/>
+	<false/>
 	<key>HighlightTabLabels</key>
 	<true/>
 	<key>HotKeyBookmark</key>
@@ -29358,9 +29358,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>375 265 620 392 0 0 1366 746 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 138 918 495 0 0 1366 768 </string>
+	<string>269 230 770 381 0 0 1366 768 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>942 769 714 1056 -261 768 1920 1058 </string>
+	<string>4 0 650 746 0 0 1366 746 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -30226,7 +30226,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-14T08:00:44Z</date>
+	<date>2016-11-22T13:48:16Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -30234,7 +30234,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>

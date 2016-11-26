@@ -2,9 +2,11 @@
   "Remote-FTP":
     autoUploadOnSave: "only when connected"
   "advanced-open-file": {}
+  "atom-gdb": {}
   core:
     disabledPackages: [
       "path-hyperclick"
+      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
@@ -16,6 +18,7 @@
       "coverage"
     ]
     telemetryConsent: "no"
+    warnOnLargeFileLimit: 1
   docblockr:
     align_tags: "no"
     extend_double_slash: false
@@ -31,6 +34,8 @@
   "file-icons":
     coloured: false
     onChanges: true
+  "file-types":
+    "^Dockerfile.*": "source.dockerfile"
   "go-config": {}
   "go-debug":
     panelInitialVisible: false

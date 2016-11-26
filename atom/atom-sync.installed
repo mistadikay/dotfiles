@@ -11,6 +11,7 @@ editorconfig
 elm-format
 emmet
 file-icons
+file-types
 go-config
 go-debug
 go-get
