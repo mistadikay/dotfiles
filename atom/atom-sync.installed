@@ -1,6 +1,7 @@
 atom-ternjs
 autoclose-html
 autocomplete-go
+autocomplete-modules
 autocomplete-paths
 builder-go
 chester-atom-syntax
@@ -54,4 +55,5 @@ project-manager
 regex-railroad-diagram
 resize-indent
 svg-preview
+tabs-to-spaces
 tester-go

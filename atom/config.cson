@@ -6,7 +6,6 @@
   core:
     disabledPackages: [
       "path-hyperclick"
-      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
@@ -183,3 +182,6 @@
 ".shell.source":
   editor:
     preferredLineLength: 100
+".source.yaml":
+  editor:
+    tabLength: 2
