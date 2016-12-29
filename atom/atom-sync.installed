@@ -18,12 +18,14 @@ go-debug
 go-get
 go-oracle
 go-plus
+go-signature-statusbar
 godoc
 gofmt
 gometalinter-linter
 gorename
 highlight-selected
 html-to-elm
+hyperclick
 language-applescript
 language-babel
 language-docker
@@ -54,6 +56,8 @@ pretty-json
 project-manager
 regex-railroad-diagram
 resize-indent
+single-click-open
+stylefmt
 svg-preview
 tabs-to-spaces
 tester-go

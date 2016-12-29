@@ -3,9 +3,12 @@
     autoUploadOnSave: "only when connected"
   "advanced-open-file": {}
   "atom-gdb": {}
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
   core:
     disabledPackages: [
       "path-hyperclick"
+      "stylefmt"
     ]
     ignoredNames: [
       ".git"
@@ -72,11 +75,14 @@
       selectionDecorationsZIndex: 0
   "project-manager":
     environmentSpecificProjects: true
+  stylefmt:
+    formatOnSave: true
   sunset:
     has_been_configured: true
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
 ".ansi.text":
