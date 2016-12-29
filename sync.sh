@@ -6,7 +6,6 @@
 # 2. push changes to .dotfiles repo
 
 dotfiles="$HOME/.dotfiles"
-brew="$(brew --prefix)/bin/brew"
 
 bash $dotfiles/homebrew/sync.sh
 bash $dotfiles/atom/sync.sh

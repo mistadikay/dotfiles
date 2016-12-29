@@ -2,9 +2,11 @@
 #
 # Homebrew Synchronization
 
-brew="$(brew --prefix)/bin/brew"
+src="$HOME/.dotfiles/homebrew"
 
 echo "Syncing Homebrew"
-$brew bundle dump --force
+
+cd "$src"
+brew bundle dump --force
 
 printf "\n"
