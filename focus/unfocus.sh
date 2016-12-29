@@ -3,6 +3,6 @@
 curl -L "https://slack.com/api/dnd.endSnooze?token=TOKEN"
 
 # reopen distructing apps
-osascript -e 'open app "Slack"'
-osascript -e 'open app "Spark"'
-osascript -e 'open app "Tweetbot"'
+open -a Slack
+open -a Spark
+open -a Tweetbot
