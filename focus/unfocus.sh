@@ -1,5 +1,5 @@
-# get TOKEN(s) from https://api.slack.com/docs/oauth-test-tokens
-# unset Do Not Disturb status
+# Unsets “Do Not Disturb” status
+# before using replace TOKEN with a token value from https://api.slack.com/docs/oauth-test-tokens
 curl -L "https://slack.com/api/dnd.endSnooze?token=TOKEN"
 
 # reopen distracting apps
