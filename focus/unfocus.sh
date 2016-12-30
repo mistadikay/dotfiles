@@ -2,7 +2,7 @@
 # unset Do Not Disturb status
 curl -L "https://slack.com/api/dnd.endSnooze?token=TOKEN"
 
-# reopen distructing apps
-open -a Slack
+# reopen distracting apps
+open -a Franz
 open -a Spark
 open -a Tweetbot
