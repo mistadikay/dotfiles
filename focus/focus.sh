@@ -14,3 +14,6 @@ curl -L "https://slack.com/api/dnd.setSnooze?token=TOKEN&num_minutes=$FOCUS_MINU
 osascript -e 'quit app "Franz"'
 osascript -e 'quit app "Spark"'
 osascript -e 'quit app "Tweetbot"'
+
+# trigger dnd-mode in macOS
+osascript ~/.dotfiles/applescript/dnd.applescript

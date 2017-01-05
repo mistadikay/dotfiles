@@ -6,3 +6,6 @@ curl -L "https://slack.com/api/dnd.endSnooze?token=TOKEN"
 open -a Franz
 open -a Spark
 open -a Tweetbot
+
+# trigger dnd-mode in macOS
+osascript ~/.dotfiles/applescript/dnd.applescript
