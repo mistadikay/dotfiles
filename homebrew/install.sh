@@ -9,6 +9,6 @@ echo "Installing Homebrew stuff"
 echo "│"
 echo "└── Restoring from bundle..."
 cd "$src"
-$brew bundle
+$brew bundle --force
 
 printf "\n"
