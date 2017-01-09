@@ -1,9 +1,7 @@
 atom-ternjs
 autoclose-html
-autocomplete-go
 autocomplete-modules
 autocomplete-paths
-builder-go
 chester-atom-syntax
 code-peek
 docblockr
@@ -13,16 +11,10 @@ elm-format
 emmet
 file-icons
 file-types
-go-config
 go-debug
-go-get
 go-oracle
 go-plus
 go-signature-statusbar
-godoc
-gofmt
-gometalinter-linter
-gorename
 highlight-selected
 html-to-elm
 hyperclick
@@ -48,7 +40,6 @@ minimap-git-diff
 minimap-highlight-selected
 minimap-pigments
 minimap-selection
-navigator-go
 node-debugger
 open-in-browser
 pigments
@@ -60,4 +51,3 @@ single-click-open
 stylefmt
 svg-preview
 tabs-to-spaces
-tester-go
