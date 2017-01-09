@@ -5,7 +5,6 @@
 src="$HOME/.dotfiles/fish"
 dest="$HOME/.config/fish"
 files=(config.fish fishfile)
-functions=(cho.fish dsync.fish findp.fish fish_prompt.fish notify.fish nv.fish run.fish up.fish)
 
 echo "Installing Fish dotfiles"
 
@@ -24,15 +23,10 @@ for file in ${files[@]}; do
   rm -f $dest/$file
   ln -s $src/$file $dest/$file
 done
+
 echo "│"
+echo "└── Installing local plugins:"
 
-echo "└── Linking to $dest/functions:"
-mkdir -p $dest/functions
-for file in ${functions[@]}; do
-  echo "    └── $file"
-
-  rm -f $dest/functions/$file
-  ln -s $src/functions/$file $dest/functions/$file
-done
+fisher ~/.dotfiles/fish/functions
 
 printf "\n"
