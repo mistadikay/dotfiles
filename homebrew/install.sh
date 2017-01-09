@@ -2,12 +2,13 @@
 #
 # Homebrew Installation
 
-dotfiles="$HOME/.dotfiles"
+src="$HOME/.dotfiles/homebrew"
 brew="$(brew --prefix)/bin/brew"
 
 echo "Installing Homebrew stuff"
 echo "│"
 echo "└── Restoring from bundle..."
+cd "$src"
 $brew bundle
 
 printf "\n"
