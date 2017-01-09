@@ -21,7 +21,7 @@ mkdir -p $dest
 for file in ${files[@]}; do
   echo "│   └── $file"
 
-  rm $dest/$file
+  rm -f $dest/$file
   ln -s $src/$file $dest/$file
 done
 echo "│"
@@ -31,7 +31,7 @@ mkdir -p $dest/functions
 for file in ${functions[@]}; do
   echo "    └── $file"
 
-  rm $dest/functions/$file
+  rm -f $dest/functions/$file
   ln -s $src/functions/$file $dest/functions/$file
 done
 

@@ -12,7 +12,7 @@ echo "└── Linking to $dest:"
 for file in ${files[@]}; do
   echo "    └── $file"
 
-  rm $dest/.$file
+  rm -f $dest/.$file
   ln -s $src/$file $dest/.$file
 done
 
