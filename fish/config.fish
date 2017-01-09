@@ -23,10 +23,8 @@ set --export PATH $GOPATH/go_appengine $PATH
 
 # gvm
 # https://github.com/moovweb/gvm
-set GVMPATH $HOME/.gvm
-set --export PATH $GVMPATH/bin $PATH
-bass [[ -s $GVMPATH/scripts/gvm ]]
-bass source "$GVMPATH/scripts/gvm"
+bass [[ -s "$HOME/.gvm/scripts/gvm" ]]
+bass source "$HOME/.gvm/scripts/gvm"
 
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
