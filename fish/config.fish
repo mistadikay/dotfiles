@@ -2,6 +2,7 @@
 set fish_greeting
 
 # Set aliases
+alias k "kubectl"
 alias c "clear"
 alias b "babel-node"
 alias fi "fisher"

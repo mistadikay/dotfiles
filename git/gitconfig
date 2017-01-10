@@ -6,7 +6,7 @@
 	user = mistadikay
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/deniskoltsov/.gitignore
 	editor = atom --wait
 
 [push]
