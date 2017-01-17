@@ -21,6 +21,7 @@ hyperclick
 language-applescript
 language-babel
 language-docker
+language-elixir
 language-elm
 language-fish-shell
 language-gitignore
@@ -29,6 +30,7 @@ language-graphql-lb
 language-nginx
 linter
 linter-docker
+linter-elixirc
 linter-elm-make
 linter-eslint
 linter-flow

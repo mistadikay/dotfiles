@@ -9,6 +9,8 @@
     disabledPackages: [
       "path-hyperclick"
       "stylefmt"
+      "go-debug"
+      "minimap-highlight-selected"
     ]
     ignoredNames: [
       ".git"
