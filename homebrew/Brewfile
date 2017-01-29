@@ -129,23 +129,22 @@ cask 'vmware-fusion'
 cask 'xld'
 cask 'yacreader'
 cask 'zeplin'
-mas 'Evernote', id: 406056744
-mas 'Keynote', id: 409183694
-mas 'Kindle', id: 405399194
-mas 'iA Writer', id: 775737590
-mas 'DaisyDisk', id: 411643860
 mas 'stts', id: 1187772509
-mas 'NepTunes', id: 1006739057
-mas 'Tweetbot', id: 557168941
-mas 'Numbers', id: 409203825
+mas 'Kindle', id: 405399194
 mas 'Xcode', id: 497799835
-mas 'Pages', id: 409201541
-mas 'OmniFocus', id: 867299399
-mas 'iMovie', id: 408981434
-mas 'CopyClip', id: 595191960
-mas 'Screeny', id: 440991524
-mas 'Spark', id: 1176895641
-mas 'Harvest', id: 506189836
-mas 'Gemini', id: 463541543
-mas 'ColorSnapper2', id: 969418666
+mas 'Keynote', id: 409183694
 mas 'Mactracker', id: 430255202
+mas 'Evernote', id: 406056744
+mas 'Gemini', id: 463541543
+mas 'CopyClip', id: 595191960
+mas 'iA Writer', id: 775737590
+mas 'Screeny', id: 440991524
+mas 'Tweetbot', id: 557168941
+mas 'OmniFocus', id: 867299399
+mas 'ColorSnapper2', id: 969418666
+mas 'Pages', id: 409201541
+mas 'Spark', id: 1176895641
+mas 'NepTunes', id: 1006739057
+mas 'Numbers', id: 409203825
+mas 'DaisyDisk', id: 411643860
+mas 'Harvest', id: 506189836

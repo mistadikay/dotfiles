@@ -53,6 +53,7 @@ macOS settings:
 - Russian keyboard
 - Spotlight on option+f
 - Change language on cmd+space 
+- dnd on Ctrl+Shift+Cmd+D
 - Show battery percentage
 - turn off capitalising
 - turn off autospelling
@@ -63,3 +64,6 @@ macOS settings:
 - never turn off display
 - accessibility: display: reduce motion
 - use dark menu bar and dock
+- spelling -> set up -> US English\
+- language & region -> advanced -> grouping , decimal .
+- Accessibility -> Zoom -> Use scroll gesture with CMD

@@ -1,7 +1,9 @@
 atom-ternjs
 autoclose-html
+autocomplete-elixir
 autocomplete-modules
 autocomplete-paths
+build-elixir
 chester-atom-syntax
 code-peek
 docblockr
@@ -18,6 +20,7 @@ go-signature-statusbar
 highlight-selected
 html-to-elm
 hyperclick
+iex
 language-applescript
 language-babel
 language-docker
