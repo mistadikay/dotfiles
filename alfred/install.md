@@ -9,3 +9,4 @@ http://www.packal.org/workflow/focus-workflow-heyfocuscom
 http://dferg.us/ip-address-workflow/
 https://github.com/ngreenstein/alfred-process-killer
 https://github.com/jaroslawhartman/alfred-workflows/tree/master/time-zones
+https://github.com/deanishe/alfred-convert
