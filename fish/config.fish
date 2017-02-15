@@ -11,7 +11,7 @@ alias brc "brew cask"
 alias brci "brew cask install"
 alias brcu "brew cask uninstall"
 alias y "yarn"
-alias r "yarn run"
+alias r "yarn"
 
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
