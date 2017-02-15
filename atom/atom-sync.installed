@@ -4,7 +4,6 @@ autocomplete-elixir
 autocomplete-modules
 autocomplete-paths
 build-elixir
-chester-atom-syntax
 code-peek
 docblockr
 double-tag

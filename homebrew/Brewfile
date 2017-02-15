@@ -13,6 +13,7 @@ tap 'rockymadden/rockymadden'
 tap 'tomanthony/brews'
 brew 'autoconf'
 brew 'awscli'
+brew 'boost'
 brew 'libpng'
 brew 'freetype'
 brew 'fontconfig'
@@ -59,6 +60,8 @@ brew 'libusb-compat'
 brew 'gnupg2'
 brew 'icu4c'
 brew 'harfbuzz'
+brew 'lua'
+brew 'highlight'
 brew 'htop'
 brew 'oniguruma'
 brew 'jq'
@@ -88,6 +91,7 @@ cask 'atom'
 cask 'bartender'
 cask 'beardedspice'
 cask 'bettertouchtool'
+cask 'betterzipql'
 cask 'cleanmymac'
 cask 'dash'
 cask 'docker'
@@ -110,6 +114,12 @@ cask 'markright'
 cask 'minikube'
 cask 'odrive'
 cask 'postman'
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'qlvideo'
+cask 'quicklook-json'
 cask 'rescuetime'
 cask 'sequel-pro'
 cask 'skype'
@@ -126,6 +136,7 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'vmware-fusion'
+cask 'webpquicklook'
 cask 'xld'
 cask 'yacreader'
 cask 'zeplin'
@@ -135,16 +146,16 @@ mas 'Xcode', id: 497799835
 mas 'Keynote', id: 409183694
 mas 'Mactracker', id: 430255202
 mas 'Evernote', id: 406056744
-mas 'Gemini', id: 463541543
 mas 'CopyClip', id: 595191960
 mas 'iA Writer', id: 775737590
+mas 'Airmail 3', id: 918858936
 mas 'Screeny', id: 440991524
 mas 'Tweetbot', id: 557168941
+mas 'Slack', id: 803453959
+mas 'Pages', id: 409201541
 mas 'OmniFocus', id: 867299399
 mas 'ColorSnapper2', id: 969418666
-mas 'Pages', id: 409201541
-mas 'Spark', id: 1176895641
 mas 'NepTunes', id: 1006739057
-mas 'Numbers', id: 409203825
 mas 'DaisyDisk', id: 411643860
+mas 'Numbers', id: 409203825
 mas 'Harvest', id: 506189836
