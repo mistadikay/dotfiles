@@ -11,8 +11,8 @@ FOCUS_MINUTES=$((FOCUS_INTERVAL / 60))
 curl -L "https://slack.com/api/dnd.setSnooze?token=TOKEN&num_minutes=$FOCUS_MINUTES"
 
 # close distracting apps
-osascript -e 'quit app "Franz"'
 osascript -e 'quit app "Spark"'
+osascript -e 'quit app "Slack"'
 osascript -e 'quit app "Tweetbot"'
 
 # trigger dnd-mode in macOS
