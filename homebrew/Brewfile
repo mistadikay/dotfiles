@@ -45,7 +45,6 @@ brew 'xvid'
 brew 'ffmpeg'
 brew 'pcre2'
 brew 'fish'
-brew 'flow'
 brew 'gdb'
 brew 'pkg-config'
 brew 'gobject-introspection'
@@ -77,6 +76,7 @@ brew 'mongodb'
 brew 'node'
 brew 'phantomjs'
 brew 'readline'
+brew 'postgresql'
 brew 'rlwrap'
 brew 'unixodbc'
 brew 'watchman'
@@ -85,6 +85,7 @@ brew 'youtube-dl'
 brew 'drone/drone/drone'
 brew 'go-delve/delve/delve'
 brew 'rockymadden/rockymadden/slack-cli'
+cask '1password'
 cask 'alfred'
 cask 'android-file-transfer'
 cask 'atom'
@@ -105,6 +106,7 @@ cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'handbrake'
 cask 'hyper'
+cask 'iina'
 cask 'imageoptim'
 cask 'iterm2'
 cask 'keka'
@@ -134,28 +136,27 @@ cask 'tunnelblick'
 cask 'viber'
 cask 'virtualbox'
 cask 'visual-studio-code'
-cask 'vlc'
 cask 'vmware-fusion'
 cask 'webpquicklook'
 cask 'xld'
 cask 'yacreader'
 cask 'zeplin'
-mas 'stts', id: 1187772509
-mas 'Kindle', id: 405399194
-mas 'Xcode', id: 497799835
-mas 'Keynote', id: 409183694
-mas 'Mactracker', id: 430255202
-mas 'Evernote', id: 406056744
-mas 'CopyClip', id: 595191960
-mas 'iA Writer', id: 775737590
 mas 'Airmail 3', id: 918858936
-mas 'Screeny', id: 440991524
-mas 'Tweetbot', id: 557168941
-mas 'Slack', id: 803453959
-mas 'Pages', id: 409201541
-mas 'OmniFocus', id: 867299399
 mas 'ColorSnapper2', id: 969418666
-mas 'NepTunes', id: 1006739057
+mas 'CopyClip', id: 595191960
 mas 'DaisyDisk', id: 411643860
-mas 'Numbers', id: 409203825
+mas 'Evernote', id: 406056744
 mas 'Harvest', id: 506189836
+mas 'iA Writer', id: 775737590
+mas 'Keynote', id: 409183694
+mas 'Kindle', id: 405399194
+mas 'Mactracker', id: 430255202
+mas 'NepTunes', id: 1006739057
+mas 'Numbers', id: 409203825
+mas 'OmniFocus', id: 867299399
+mas 'Pages', id: 409201541
+mas 'Screeny', id: 440991524
+mas 'Slack', id: 803453959
+mas 'stts', id: 1187772509
+mas 'Tweetbot', id: 557168941
+mas 'Xcode', id: 497799835

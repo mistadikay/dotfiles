@@ -4,7 +4,6 @@ autocomplete-elixir
 autocomplete-modules
 autocomplete-paths
 build-elixir
-code-peek
 docblockr
 double-tag
 editorconfig
@@ -12,14 +11,13 @@ elm-format
 emmet
 file-icons
 file-types
+flow-ide
 go-debug
-go-oracle
 go-plus
 go-signature-statusbar
 highlight-selected
 html-to-elm
 hyperclick
-iex
 language-applescript
 language-babel
 language-docker
@@ -49,7 +47,7 @@ open-in-browser
 pigments
 pretty-json
 project-manager
-regex-railroad-diagram
+regex-railroad-diagram-fork
 resize-indent
 single-click-open
 stylefmt
