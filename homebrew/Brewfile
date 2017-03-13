@@ -11,6 +11,7 @@ tap 'homebrew/services'
 tap 'homebrew/versions'
 tap 'rockymadden/rockymadden'
 tap 'tomanthony/brews'
+cask 'java'
 brew 'autoconf'
 brew 'awscli'
 brew 'boost'
@@ -136,6 +137,7 @@ cask 'tunnelblick'
 cask 'viber'
 cask 'virtualbox'
 cask 'visual-studio-code'
+cask 'vlc'
 cask 'vmware-fusion'
 cask 'webpquicklook'
 cask 'xld'
@@ -156,7 +158,6 @@ mas 'Numbers', id: 409203825
 mas 'OmniFocus', id: 867299399
 mas 'Pages', id: 409201541
 mas 'Screeny', id: 440991524
-mas 'Slack', id: 803453959
 mas 'stts', id: 1187772509
 mas 'Tweetbot', id: 557168941
 mas 'Xcode', id: 497799835

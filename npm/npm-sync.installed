@@ -2,6 +2,7 @@ babel-cli
 create-react-app
 elm
 elm-oracle
+fkill-cli
 flow-bin
 hpm-cli
 np
@@ -10,5 +11,6 @@ pm
 pm2
 speed-test
 static-server
+surge
 svgo
 yarn
