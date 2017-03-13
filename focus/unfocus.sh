@@ -3,7 +3,6 @@
 curl -L "https://slack.com/api/dnd.endSnooze?token=TOKEN"
 
 # reopen distracting apps
-open -a Slack
 open -a "Airmail 3"
 open -a Tweetbot
 
