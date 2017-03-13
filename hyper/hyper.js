@@ -32,7 +32,7 @@ module.exports = {
     termCSS: '',
 
     // custom padding
-    padding: '0 14px',
+    padding: '0 14px 22px',
 
     windowSize: [ 1440, 875 ],
 
@@ -74,7 +74,8 @@ module.exports = {
     'hyper-blink',
     'hypercwd',
     'hyper-dark-scrollbar',
-    'hyper-statusline',
+    // 'hyper-statusline',
+    'hyperline',
     'hyper-tab-icons'
   ],
 
