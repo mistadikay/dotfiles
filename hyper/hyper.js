@@ -16,13 +16,17 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: '#333',
+    backgroundColor: '#282c34',
 
     // border color (window, tabs)
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    css: `
+      .splitpane_divider {
+        background-color: #444 !important;
+      }
+    `,
 
     // custom padding (css format, i.e.: `top right bottom left`)
     termCSS: '',
@@ -51,7 +55,12 @@ module.exports = {
       '#cc00ff',
       '#00ffff',
       '#ffffff'
-    ]
+    ],
+    hyperStatusLine: {
+      dirtyColor: 'salmon',
+      arrowsColor: 'ivory',
+      footerTransparent: false,
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -61,10 +70,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-atom-dark',
-    'hyperterm-blink',
+    'hyper-one-dark',
+    'hyper-blink',
     'hypercwd',
-    "hyperterm-tab-icons"
+    'hyper-dark-scrollbar',
+    'hyper-statusline',
+    'hyper-tab-icons'
   ],
 
   // in development, you can create a directory under

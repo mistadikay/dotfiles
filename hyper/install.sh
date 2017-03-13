@@ -2,9 +2,9 @@
 #
 # Symlink hyperterm config
 
-src="$HOME/.dotfiles/hyperterm"
+src="$HOME/.dotfiles/hyper"
 dest=$HOME
-files=(hyperterm.js)
+files=(hyper.js)
 
 echo "Installing Hyperterm config"
 
