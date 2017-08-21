@@ -3,12 +3,13 @@
     autoUploadOnSave: "only when connected"
   "advanced-open-file": {}
   "atom-gdb": {}
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
   "autocomplete-modules":
     babelPluginModuleResolver: true
   core:
     disabledPackages: [
       "path-hyperclick"
-      "stylefmt"
       "go-debug"
       "minimap-highlight-selected"
     ]
@@ -22,6 +23,7 @@
       "coverage"
     ]
     telemetryConsent: "no"
+    titleBar: "hidden"
     warnOnLargeFileLimit: 1
   docblockr:
     align_tags: "no"
@@ -40,6 +42,10 @@
     onChanges: true
   "file-types":
     "^Dockerfile.*": "source.dockerfile"
+  "flow-ide": {}
+  "git-blame":
+    showHash: false
+    showOnlyLastNames: true
   "go-config": {}
   "go-debug":
     panelInitialVisible: false
@@ -54,16 +60,22 @@
   "language-elm-make":
     elmOraclePath: "/Users/deniskoltsov/.config/fnm/bin/elm-make"
   linter:
-    errorPanelHeight: 166
-    lintOnFly: false
+    lintOnChangeInterval: 900
   "linter-eslint": {}
+  "linter-flow":
+    executablePath: "/Users/deniskoltsov/.config/fnm/bin/flow"
   "linter-golinter": {}
   "linter-stylelint":
     disableWhenNoConfig: true
+  "linter-ui-default":
+    panelHeight: 69
+  "linter-write-good":
+    severityLevel: "Info"
   "livestyle-atom":
     analyzer:
       notify: false
   minimap:
+    disablePythonDocLinks: true
     plugins:
       "find-and-replace": true
       "find-and-replaceDecorationsZIndex": 0
@@ -75,6 +87,16 @@
       pigmentsDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+  "one-dark-ui": {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      parser: "flow"
+      printWidth: 100
+      singleQuote: true
+    useEslint: true
   "project-manager":
     environmentSpecificProjects: true
   stylefmt:

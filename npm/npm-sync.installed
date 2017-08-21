@@ -1,4 +1,5 @@
 babel-cli
+create-cycle-app
 create-react-app
 elm
 elm-oracle
@@ -7,8 +8,12 @@ flow-bin
 hpm-cli
 np
 npm
+npx
+objectify-css
+opn-cli
 pm
 pm2
+rawkit
 speed-test
 static-server
 surge
