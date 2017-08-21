@@ -4,7 +4,7 @@
 
 src="$HOME/.dotfiles/atom"
 dest="$HOME/.atom"
-files=(config.cson keymap.cson)
+files=(config.cson keymap.cson snippets.cson styles.less)
 
 if [ -d "$dest" ]; then
   echo "Installing Atom config"
