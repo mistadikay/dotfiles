@@ -12,6 +12,9 @@ alias brci "brew cask install"
 alias brcu "brew cask uninstall"
 alias y "yarn"
 alias r "yarn"
+alias gs "git status"
+alias gpnf "git push --no-verify"
+alias gpnff "git push --no-verify --force"
 
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
