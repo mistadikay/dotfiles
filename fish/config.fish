@@ -1,3 +1,8 @@
+# gvm
+# https://github.com/moovweb/gvm
+bass [[ -s "$HOME/.gvm/scripts/gvm" ]]
+bass source "$HOME/.gvm/scripts/gvm"
+
 # remove greeting
 set fish_greeting
 
@@ -25,10 +30,6 @@ set --export GOPATH $HOME/go
 set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
 
-# gvm
-# https://github.com/moovweb/gvm
-bass [[ -s "$HOME/.gvm/scripts/gvm" ]]
-bass source "$HOME/.gvm/scripts/gvm"
 
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
