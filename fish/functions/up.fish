@@ -30,7 +30,4 @@ function up
 	# update npm and global npm packages
 	npm i npm -g
 	npm update -g
-
-	# update atom packages
-	apm upgrade --confirm false
 end

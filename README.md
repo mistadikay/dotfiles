@@ -44,7 +44,6 @@ Install sequence:
 - homebrew
 - dotfiles basic
 - dotfiles homebrew
-- dotfiles apm
 - mackup
 - fonts
 
