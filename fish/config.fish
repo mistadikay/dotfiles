@@ -21,7 +21,7 @@ alias gpnff "git push --no-verify --force"
 complete -c itermocil -a "(itermocil --list)"
 
 # Go
-set --export GOPATH $HOME/Go
+set --export GOPATH $HOME/go
 set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
 
