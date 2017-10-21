@@ -16,4 +16,6 @@ for file in ${files[@]}; do
   ln -s $src/$file $dest/.$file
 done
 
+git config --global core.excludesfile '~/.gitignore'
+
 printf "\n"
