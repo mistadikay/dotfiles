@@ -72,3 +72,5 @@ _test
 *.msi
 *.msm
 *.msp
+
+.history
