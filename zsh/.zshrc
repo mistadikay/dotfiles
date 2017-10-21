@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/deniskoltsov/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,7 +51,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aws brew cask common-aliases gpg-agent git github history ng node npm osx yarn zsh-autosuggestions)
+plugins=(aws common-aliases gpg-agent git github history ng node npm osx yarn zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,9 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=(fg=240)
 
-autoload -Uz predict-on && predict-on
-
-source "/Users/deniskoltsov/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+source "$(echo ~)/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 SPACESHIP_PROMPT_ORDER=(
   time          # Time stampts section
