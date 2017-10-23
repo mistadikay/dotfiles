@@ -4,7 +4,7 @@
 
 src="$HOME/.dotfiles/zsh"
 dest="$HOME"
-files=(.zshrc .oh-my-zsh/oh-my-zsh.sh)
+files=(.zshrc)
 
 echo "Installing oh-my-zsh"
 
