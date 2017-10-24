@@ -1,23 +1,29 @@
 # update dependencies
 function up
-	# show mac updates
-	softwareupdate -l
+	switch (uname)
+	case Linux
+		sudo apt update
+		sudo apt full-upgrade
+	case '*'
+		# show mac updates
+		softwareupdate -l
 
-	# upgrade mac apps
-	mas upgrade
+		# upgrade mac apps
+		mas upgrade
 
-	# brew
-	brew update --rebase
-	brew upgrade
-	brew cleanup -s --force
-	brew cask cleanup
-	brew prune
+		# brew
+		brew update --rebase
+		brew upgrade
+		brew cleanup -s --force
+		brew cask cleanup
+		brew prune
+
+		# https://github.com/rgcr/m-cli
+		m --update
+	end
 
 	# https://github.com/fish-shell/fish-shell/blob/master/doc_src/fish_update_completions.txt
 	fish_update_completions
-
-	# https://github.com/rgcr/m-cli
-	m --update
 
 	# update fishmarks (https://github.com/techwizrd/fishmarks)
 	cd ~/.fishmarks
