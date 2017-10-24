@@ -56,3 +56,7 @@
 	trustExitCode = true
 [commit]
 	template = /Users/lazhcm10348/.stCommitMsg
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
