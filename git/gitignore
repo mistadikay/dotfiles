@@ -73,4 +73,8 @@ _test
 *.msm
 *.msp
 
+# VSCode
 .history
+
+# Intelij family
+.idea
