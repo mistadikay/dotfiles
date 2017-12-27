@@ -2,8 +2,14 @@
 function up
 	switch (uname)
 	case Linux
-		sudo apt update
-		sudo apt full-upgrade
+		if test /etc/redhat-release
+			sudo dnf upgrade --refresh
+			sudo dnf install code
+			sudo yum update
+		else
+			sudo apt update
+			sudo apt full-upgrade
+		end
 	case '*'
 		# show mac updates
 		softwareupdate -l
