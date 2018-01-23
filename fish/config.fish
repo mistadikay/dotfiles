@@ -31,6 +31,7 @@ complete -c itermocil -a "(itermocil --list)"
 set --export GOPATH $HOME/go
 set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
+set --export PATH $HOME/.local/bin $PATH
 
 # Brew stuff
 set --export PATH /usr/local/sbin $PATH
