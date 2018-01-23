@@ -3,8 +3,8 @@ function up
 	switch (uname)
 	case Linux
 		if test /etc/redhat-release
+			sudo dnf clean all
 			sudo dnf upgrade --refresh
-			sudo dnf install code
 			sudo yum update
 		else
 			sudo apt update
