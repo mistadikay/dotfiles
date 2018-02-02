@@ -1,8 +1,3 @@
-# gvm
-# https://github.com/moovweb/gvm
-bass [[ -s "$HOME/.gvm/scripts/gvm" ]]
-bass source "$HOME/.gvm/scripts/gvm"
-
 # remove greeting
 set fish_greeting
 
