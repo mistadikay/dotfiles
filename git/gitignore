@@ -52,7 +52,6 @@ _test
 
 # Archives
 *.7z
-*.jar
 *.rar
 *.zip
 *.gz
