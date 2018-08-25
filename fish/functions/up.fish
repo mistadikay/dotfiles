@@ -20,8 +20,7 @@ function up
 		# brew
 		brew update --rebase
 		brew upgrade
-		brew cleanup -s --force
-		brew cask cleanup
+		brew cleanup -s
 		brew prune
 
 		# https://github.com/rgcr/m-cli
