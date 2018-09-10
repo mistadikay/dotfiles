@@ -7,36 +7,13 @@
 
 [core]
 	excludesfile = ~/.gitignore
-	editor = atom --wait
-
-[push]
-	default = simple
-
-[credential]
-	helper = osxkeychain
+	editor = code --wait
 
 [url "https://github.com/"]
 	insteadOf = "gh:"
 
 [url "https://github.com/mistadikay/"]
 	insteadOf = "@:"
-
-[alias]
-	s = status -bs
-	l = log
-	lg = log --color \
-           --graph \
-           --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' \
-           --abbrev-commit --
-	b = checkout -b
-	o = checkout
-	x = !git add -A && git commit
-	p = push
-	f = push -f origin
-	g = pull --rebase
-	r = rebase -i
-	root = rebase -i --root
-	pop = stash pop
 
 [color]
 	branch = auto
@@ -47,15 +24,6 @@
 [interactive]
 	diffFilter = diff-highlight
 
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = /Users/lazhcm10348/.stCommitMsg
 [url "git@bitbucket.org:"]
 	insteadOf = https://bitbucket.org/
 [url "git@github.com:"]
