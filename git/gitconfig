@@ -9,6 +9,9 @@
 	excludesfile = ~/.gitignore
 	editor = code --wait
 
+[push]
+	default = current
+
 [url "https://github.com/"]
 	insteadOf = "gh:"
 
