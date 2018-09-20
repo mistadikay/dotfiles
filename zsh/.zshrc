@@ -86,8 +86,6 @@ source $ZSH/oh-my-zsh.sh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=(fg=240)
 
-source "$(echo ~)/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
 SPACESHIP_PROMPT_ORDER=(
   time          # Time stampts section
   user          # Username section
@@ -122,3 +120,9 @@ SPACESHIP_PROMPT_ORDER=(
   exit_code     # Exit code section
   char          # Prompt character
 )
+
+fpath=($fpath "~/.zfunctions")
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
