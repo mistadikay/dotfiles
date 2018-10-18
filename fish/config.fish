@@ -28,6 +28,9 @@ set --export PATH $GOPATH/bin $PATH
 set --export PATH $GOPATH/go_appengine $PATH
 set --export PATH $HOME/.local/bin $PATH
 
+# Rust
+set --export PATH $HOME/.cargo/bin $PATH
+
 # Brew stuff
 set --export PATH /usr/local/sbin $PATH
 

@@ -38,6 +38,9 @@ function up
 	# update fisher
 	fisher update
 
+	# update Rust toolchains and rustup
+	rustup update
+
 	# update npm and global npm packages
 	npm i npm -g
 	npm update -g
