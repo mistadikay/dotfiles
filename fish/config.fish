@@ -35,6 +35,10 @@ set --export PATH $HOME/.cargo/bin $PATH
 # Brew stuff
 set --export PATH /usr/local/sbin $PATH
 
+# pgloader (built from source because see link below)
+# https://github.com/Homebrew/homebrew-core/issues/31591
+set --export PATH /Applications/pgloader/build/bin $PATH
+
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
 
