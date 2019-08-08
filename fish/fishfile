@@ -1,8 +1,2 @@
-fisherman/await
-edc/bass
-brgmnn/fish-docker-compose
-fisherman/fnm
-fisherman/get_file_age
-fisherman/git_util
-fisherman/last_job_id
-fisherman/menu
+~/.dotfiles/fish/functions
+jorgebucaran/fish-nvm
