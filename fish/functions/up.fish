@@ -18,10 +18,9 @@ function up
             mas upgrade
 
             # brew
-            brew update --rebase
+            brew update
             brew upgrade
             brew cleanup -s
-            brew prune
 
             # https://github.com/rgcr/m-cli
             m --update
