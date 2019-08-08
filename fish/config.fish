@@ -23,6 +23,8 @@ alias git='env LANG=en_US.UTF-8 git'
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
 complete -c itermocil -a "(itermocil --list)"
 
+set --export SECRETS_GPG_COMMAND gpg2
+
 # Go
 set --export GOPATH $HOME/go
 set --export PATH $GOPATH/bin $PATH
