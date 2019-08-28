@@ -18,6 +18,8 @@ alias gp "git push"
 alias gpnf "git push --no-verify"
 alias gpnff "git push --no-verify --force"
 alias git='env LANG=en_US.UTF-8 git'
+alias dps='docker ps'
+alias ds='docker stop'
 
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
