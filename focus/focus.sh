@@ -2,7 +2,7 @@
 # FOCUS_INTERVAL is amount of seconds user focuses on (env variable from Focus.app)
 # note: $FOCUS_INTERVAL is 0 by default, otherwise it's the interval for the previous focus session
 if [ "$FOCUS_INTERVAL" -eq "0" ]; then
-   FOCUS_INTERVAL=1500
+    FOCUS_INTERVAL=1500
 fi
 FOCUS_MINUTES=$((FOCUS_INTERVAL / 60))
 
@@ -13,6 +13,3 @@ curl -L "https://slack.com/api/dnd.setSnooze?token=TOKEN&num_minutes=$FOCUS_MINU
 # close distracting apps
 osascript -e 'quit app "Airmail 3"'
 osascript -e 'quit app "Tweetbot"'
-
-# trigger dnd-mode in macOS
-osascript ~/.dotfiles/applescript/dnd.applescript
