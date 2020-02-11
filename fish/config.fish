@@ -52,6 +52,10 @@ set --export PATH /Applications/pgloader/build/bin $PATH
 test -e {$HOME}/.iterm2_shell_integration.fish
 and source {$HOME}/.iterm2_shell_integration.fish
 
+# pyenv
+status --is-interactive
+and source (pyenv init -|psub)
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f $HOME/yes/google-cloud-sdk/path.fish.inc ]
     echo "stuff"
