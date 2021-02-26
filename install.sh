@@ -15,7 +15,6 @@ bash $dotfiles/homebrew/install.sh
 bash $dotfiles/npm/install.sh
 bash $dotfiles/vim/install.sh
 bash $dotfiles/atom/install.sh
-bash $dotfiles/hyperterm/install.sh
 
 # Synchronize
 bash $dotfiles/sync.sh
