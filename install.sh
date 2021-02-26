@@ -14,7 +14,6 @@ bash $dotfiles/fish/install.sh
 bash $dotfiles/homebrew/install.sh
 bash $dotfiles/npm/install.sh
 bash $dotfiles/vim/install.sh
-bash $dotfiles/atom/install.sh
 
 # Synchronize
 bash $dotfiles/sync.sh
