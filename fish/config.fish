@@ -43,7 +43,7 @@ set --export PATH $HOME/.cargo/bin $PATH
 set --export PATH /usr/local/sbin $PATH
 
 # Anaconda
-set --export PATH $HOME/opt/anaconda3/bin $PATH
+set --export PATH /usr/local/anaconda3 $PATH
 
 # pgloader (built from source because see link below)
 # https://github.com/Homebrew/homebrew-core/issues/31591
@@ -64,6 +64,6 @@ set -g fish_user_paths "/usr/local/opt/tomcat@8/bin" $fish_user_paths
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/denis.koltsov/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
