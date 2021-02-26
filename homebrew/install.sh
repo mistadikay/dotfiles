@@ -1,14 +1,49 @@
 #!/usr/bin/env bash
-#
-# Homebrew Installation
 
-src="$HOME/.dotfiles/homebrew"
-brew="$(brew --prefix)/bin/brew"
+echo "└── Installing Homebrew"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew upgrade
 
-echo "Installing Homebrew stuff"
-echo "│"
-echo "└── Restoring from bundle..."
-cd "$src"
-$brew bundle --force
+echo "└── Installing brew packages"
+brew install awscli
+brew install git
+brew install gnupg
+brew install go
+brew install fish
+brew install hugo
+brew install kubernetes-cli
+brew install m-cli
+brew install mas
+brew install nvm
+brew install openjdk
+brew install yarn
+brew install youtube-dl
 
-printf "\n"
+echo "└── Installing brew casks"
+brew install --cask 1password
+brew install --cask anaconda
+brew install --cask bartender
+brew install --cask bettertouchtool
+brew install --cask brave-browser
+brew install --cask docker
+brew install --cask firefox
+brew install --cask figma
+brew install --cask focus
+brew install --cask iterm2
+brew install --cask jetbrains-toolbox
+brew install --cask karabiner-elements
+brew install --cask keybase
+brew install --cask miro
+brew install --cask postman
+brew install --cask protonmail-bridge
+brew install --cask qlmarkdown
+brew install --cask qlstephen
+brew install --cask qlvideo
+brew install --cask quicklook-json
+brew install --cask skype
+brew install --cask sourcetree
+brew install --cask steam
+brew install --cask transmission
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask yacreader
