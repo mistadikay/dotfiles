@@ -3,6 +3,7 @@
 echo "└── Installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew upgrade
+brew tap homebrew/cask-drivers
 
 echo "└── Installing brew packages"
 brew install awscli
@@ -12,6 +13,7 @@ brew install go
 brew install fish
 brew install hugo
 brew install kubernetes-cli
+brew install logitech-options
 brew install m-cli
 brew install mas
 brew install nvm
@@ -26,6 +28,7 @@ brew install --cask bartender
 brew install --cask bettertouchtool
 brew install --cask brave-browser
 brew install --cask docker
+brew install --cask dropbox
 brew install --cask firefox
 brew install --cask figma
 brew install --cask focus
@@ -33,6 +36,7 @@ brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask karabiner-elements
 brew install --cask keybase
+brew install --cask lastpass
 brew install --cask miro
 brew install --cask postman
 brew install --cask protonmail-bridge
