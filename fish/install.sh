@@ -8,6 +8,9 @@ files=(config.fish fishfile)
 
 echo "Installing Fish dotfiles"
 
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+
 # install fishmarks
 curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
 

@@ -28,9 +28,6 @@ dsync
 Manual setup:
 - git:
     - private keys transfer?
-- fish:
-    - add `/usr/local/bin/fish` to `/etc/shells`
-    - run `chsh -s /usr/local/bin/fish`
 - alfred:
     - autosetup theme and plugins?
 
