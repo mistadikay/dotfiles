@@ -6,7 +6,7 @@
 	user = mistadikay
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/mistadikay/.gitignore
 	editor = code --wait
 
 [push]
