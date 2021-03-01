@@ -2,10 +2,6 @@
 #
 # Install fish stuff
 
-src="$HOME/.dotfiles/fish"
-dest="$HOME/.config/fish"
-files=(config.fish fishfile)
-
 echo "Installing Fish dotfiles"
 
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
@@ -18,6 +14,9 @@ curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
 curl -sLo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 fisher
 
+src="$HOME/.dotfiles/fish"
+dest="$HOME/.config/fish"
+files=(config.fish fishfile)
 echo "└── Linking to $dest:"
 mkdir -p $dest
 for file in ${files[@]}; do
@@ -27,9 +26,18 @@ for file in ${files[@]}; do
   ln -s $src/$file $dest/$file
 done
 
-echo "│"
-echo "└── Installing local plugins:"
+src="$HOME/.dotfiles/fish/functions/*"
+dest="$HOME/.config/fish/functions"
+echo "└── Linking to $dest:"
+mkdir -p $dest
+for file in $src; do
+  echo "│   └── $file"
 
-fisher ~/.dotfiles/fish/functions
+  filename="$(basename -- $file)"
+  destpath=$dest/$filename
+
+  rm -f $destpath
+  ln -s $file $destpath
+done
 
 printf "\n"
