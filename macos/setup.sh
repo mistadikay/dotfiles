@@ -59,3 +59,14 @@ echo "TODO: Keyboard -> App Shortcuts -> Safari -> 'Close Tab' shortcut"
 
 # Desktop & Screen Saver
 echo "TODO: Active Screen Corners -> Top Right -> Launchpad"
+
+# Menu bar
+echo "TODO: Show bluetooth icon"
+
+echo "TODO: Hide the day of the week"
+
+echo "TODO: Hide the date"
+
+echo "TODO: Show analog clock"
+
+echo "TODO: Hide spotlight"
