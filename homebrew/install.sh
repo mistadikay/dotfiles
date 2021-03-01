@@ -32,6 +32,7 @@ brew install --cask dropbox
 brew install --cask firefox
 brew install --cask figma
 brew install --cask focus
+brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask karabiner-elements
