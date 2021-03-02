@@ -2,6 +2,9 @@
 	name = Denis Koltsov
 	email = iam@mistadikay.com
 
+[includeIf "gitdir:~/Projects/pdx/"]
+    path = ~/Projects/pdx/.gitconfig
+
 [github]
 	user = mistadikay
 
@@ -38,7 +41,7 @@
 	required = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
