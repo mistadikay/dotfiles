@@ -12,12 +12,15 @@ brew install gnupg
 brew install go
 brew install fish
 brew install hugo
+brew install jq
 brew install kubernetes-cli
 brew install logitech-options
 brew install m-cli
 brew install mas
 brew install nvm
 brew install openjdk
+brew install rustup-init
+brew install vault
 brew install yarn
 brew install youtube-dl
 
