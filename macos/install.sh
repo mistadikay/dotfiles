@@ -17,3 +17,4 @@ mas lucky slack
 mas lucky telegram
 mas lucky tweetbot3
 mas lucky wallcat
+mas install 497799835 #xcode
