@@ -1,6 +1,7 @@
 [user]
 	name = Denis Koltsov
 	email = iam@mistadikay.com
+	signingkey = 3C9D9D280118ED0A
 
 [includeIf "gitdir:~/Projects/pdx/"]
     path = ~/Projects/pdx/.gitconfig
@@ -12,8 +13,14 @@
 	excludesfile = /Users/mistadikay/.gitignore
 	editor = code --wait
 
+[commit]
+  gpgsign = true
+
 [push]
 	default = current
+
+[pull]
+    ff = only
 
 [url "https://github.com/"]
 	insteadOf = "gh:"
