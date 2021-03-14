@@ -4,10 +4,12 @@ echo "└── Installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew upgrade
 brew tap homebrew/cask-drivers
+brew tap janniks/git-ignore
 
 echo "└── Installing brew packages"
 brew install awscli
 brew install git
+brew install git-ignore
 brew install gnupg
 brew install go
 brew install fish
@@ -56,3 +58,4 @@ brew install --cask transmission
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask yacreader
+brew install --cask zettlr
