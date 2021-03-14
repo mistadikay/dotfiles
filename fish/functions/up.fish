@@ -35,7 +35,7 @@ function up
     git reset --hard origin/master
 
     # update fisher
-    fisher self-update
+    fisher update
 
     # update Rust toolchains and rustup
     rustup update
