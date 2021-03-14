@@ -42,6 +42,7 @@ brew install --cask karabiner-elements
 brew install --cask keybase
 brew install --cask lastpass
 brew install --cask miro
+brew install --cask notion
 brew install --cask postman
 brew install --cask protonmail-bridge
 brew install --cask qlmarkdown
