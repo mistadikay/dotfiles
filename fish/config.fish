@@ -42,9 +42,6 @@ set --export PATH $HOME/.cargo/bin $PATH
 # Brew stuff
 set --export PATH /usr/local/sbin $PATH
 
-# Anaconda
-set --export PATH /usr/local/anaconda3 $PATH
-
 # Set GPG TTY
 set -x GPG_TTY (tty)
 
@@ -64,9 +61,3 @@ if [ -f $HOME/yes/google-cloud-sdk/path.fish.inc ]
     . $HOME/yes/google-cloud-sdk/path.fish.inc
 end
 set -g fish_user_paths "/usr/local/opt/tomcat@8/bin" $fish_user_paths
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-

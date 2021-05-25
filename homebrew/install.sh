@@ -28,7 +28,6 @@ brew install youtube-dl
 
 echo "└── Installing brew casks"
 brew install --cask 1password
-brew install --cask anaconda
 brew install --cask bartender
 brew install --cask bettertouchtool
 brew install --cask brave-browser

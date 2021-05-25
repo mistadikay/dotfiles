@@ -107,7 +107,6 @@ SPACESHIP_PROMPT_ORDER=(
   docker        # Docker section
   aws           # Amazon Web Services section
   # venv          # virtualenv section
-  # conda         # conda virtualenv section
   pyenv         # Pyenv section
   # dotnet        # .NET section
   ember         # Ember.js section
