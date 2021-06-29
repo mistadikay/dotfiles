@@ -39,6 +39,10 @@ set --export PATH $HOME/google-cloud-sdk/bin $PATH
 # Rust
 set --export PATH $HOME/.cargo/bin $PATH
 
+# Kafka
+set --export KAFKA_HOME /Applications/kafka_2.13-2.8.0/
+set --export PATH $KAFKA_HOME/bin $PATH
+
 # Brew stuff
 set --export PATH /usr/local/sbin $PATH
 
