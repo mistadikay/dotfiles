@@ -46,10 +46,6 @@ set --export PATH /usr/local/sbin $PATH
 # Set GPG TTY
 set -x GPG_TTY (tty)
 
-# pgloader (built from source because see link below)
-# https://github.com/Homebrew/homebrew-core/issues/31591
-set --export PATH /Applications/pgloader/build/bin $PATH
-
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
 
