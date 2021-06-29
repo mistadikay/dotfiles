@@ -57,3 +57,4 @@ test -e {$HOME}/.iterm2_shell_integration.fish
 and source {$HOME}/.iterm2_shell_integration.fish
 
 set -g fish_user_paths "/usr/local/opt/tomcat@8/bin" $fish_user_paths
+fish_add_path /usr/local/opt/terraform@0.13/bin
