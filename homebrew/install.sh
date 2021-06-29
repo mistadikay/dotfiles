@@ -8,6 +8,7 @@ brew tap janniks/git-ignore
 
 echo "└── Installing brew packages"
 brew install awscli
+brew install gh
 brew install git
 brew install git-ignore
 brew install gnupg
