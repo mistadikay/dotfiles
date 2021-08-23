@@ -40,10 +40,8 @@ brew install --cask focus
 brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
-brew install --cask karabiner-elements
 brew install --cask keybase
 brew install --cask lastpass
-brew install --cask miro
 brew install --cask notion
 brew install --cask postman
 brew install --cask protonmail-bridge
