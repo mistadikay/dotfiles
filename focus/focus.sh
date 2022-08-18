@@ -6,9 +6,10 @@ if [ "$FOCUS_INTERVAL" -eq "0" ]; then
 fi
 FOCUS_MINUTES=$((FOCUS_INTERVAL / 60))
 
-# before using replace TOKEN with a token value from https://api.slack.com/docs/oauth-test-tokens
-# repeat the command below for each slack you need to change DND-status for
-curl -L "https://slack.com/api/dnd.setSnooze?token=TOKEN&num_minutes=$FOCUS_MINUTES"
+# before using replace TOKEN with a token value from https://api.slack.com/tutorials/tracks/getting-a-token
+# repeat the command below for each workspace you need to change DND-status for
+TOKEN=User OAuth Token
+curl -H "Authorization: Bearer $TOKEN" "https://slack.com/api/dnd.setSnooze?num_minutes=$FOCUS_MINUTES"
 
 # close distracting apps
 osascript -e 'quit app "Mail"'
