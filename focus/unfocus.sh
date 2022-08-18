@@ -6,4 +6,5 @@ curl -H "Authorization: Bearer $TOKEN" "https://slack.com/api/dnd.endSnooze"
 
 # reopen distracting apps
 open -a "Mail"
+open -a "Telegram"
 open -a "Tweetbot"

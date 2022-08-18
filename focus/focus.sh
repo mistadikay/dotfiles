@@ -13,4 +13,5 @@ curl -H "Authorization: Bearer $TOKEN" "https://slack.com/api/dnd.setSnooze?num_
 
 # close distracting apps
 osascript -e 'quit app "Mail"'
+osascript -e 'quit app "Telegram"'
 osascript -e 'quit app "Tweetbot"'
