@@ -53,7 +53,6 @@ _test
 # Archives
 *.7z
 *.rar
-*.zip
 *.gz
 *.bzip
 *.bz2
@@ -77,3 +76,4 @@ _test
 
 # Intelij family
 .idea
+*.iml
