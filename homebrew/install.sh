@@ -7,6 +7,7 @@ brew tap homebrew/cask-drivers
 brew tap janniks/git-ignore
 
 echo "└── Installing brew packages"
+brew install act
 brew install awscli
 brew install gh
 brew install git
