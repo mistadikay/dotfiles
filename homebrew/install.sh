@@ -52,8 +52,8 @@ brew install --cask quicklook-json
 brew install --cask skype
 brew install --cask sourcetree
 brew install --cask steam
+brew install --cask sublime-text
 brew install --cask transmission
-brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask yacreader
 brew install --cask zettlr
