@@ -23,6 +23,7 @@ brew install m-cli
 brew install mas
 brew install nvm
 brew install openjdk
+brew install starship
 brew install rustup-init
 brew install vault
 brew install yarn
