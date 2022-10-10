@@ -30,7 +30,7 @@
 			<key>apache/kafka</key>
 			<dict>
 				<key>date</key>
-				<date>2021-06-05T17:28:23Z</date>
+				<date>2021-12-23T01:42:30Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -201,6 +201,16 @@
 			<dict>
 				<key>date</key>
 				<date>2021-06-05T16:44:34Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/React.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-07-02T12:21:23Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Rust.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-10-03T18:33:56Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
