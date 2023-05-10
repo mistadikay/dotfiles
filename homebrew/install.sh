@@ -2,6 +2,11 @@
 
 echo "└── Installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# add brew to PATH
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/denis.koltsov/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew upgrade
 brew tap homebrew/cask-drivers
 
