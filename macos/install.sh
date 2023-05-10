@@ -7,3 +7,4 @@ echo "└── Installing apps from Mac App Store"
 mas lucky copyclip
 mas lucky daisydisk
 mas lucky gemini
+mas lucky devutils

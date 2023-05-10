@@ -38,6 +38,7 @@ brew install --cask focus
 brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
+brew install --cask obsidian
 brew install --cask postman
 brew install --cask steam
 brew install --cask sublime-text
