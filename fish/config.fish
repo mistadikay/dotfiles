@@ -49,6 +49,7 @@ set --export KAFKA_HOME /Applications/kafka_2.13-2.8.0/
 set --export PATH $KAFKA_HOME/bin $PATH
 
 # Brew stuff
+set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
 set --export PATH /usr/local/sbin $PATH
 
 # Set GPG TTY
