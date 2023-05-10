@@ -21,6 +21,14 @@ alias git='env LANG=en_US.UTF-8 git'
 alias dps='docker ps'
 alias ds='docker stop'
 
+function ku --wraps rm --description 'alias kubectl config use-context'
+    kubectl config use-context arn:aws:eks:us-east-1:662431652384:cluster/k8s_$argv
+end
+
+function ks --wraps rm --description 'alias kubectl config set-context'
+    kubectl config set-context --current --namespace=$argv
+end
+
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
 complete -c itermocil -a "(itermocil --list)"
