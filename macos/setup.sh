@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Dock
-echo "Move dock to the right"
-defaults write com.apple.dock orientation right
+echo "Move dock to the left"
+defaults write com.apple.dock orientation left
 
 echo "Turn Hiding on"
 defaults write com.apple.dock autohide -bool true
