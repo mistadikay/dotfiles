@@ -30,7 +30,6 @@ brew install youtube-dl
 echo "└── Installing brew casks"
 brew install --cask 1password
 brew install --cask bartender
-brew install --cask bettertouchtool
 brew install --cask docker
 brew install --cask dropbox
 brew install --cask firefox
@@ -40,5 +39,6 @@ brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask obsidian
 brew install --cask postman
+brew install --cask rectangle
 brew install --cask steam
 brew install --cask sublime-text
