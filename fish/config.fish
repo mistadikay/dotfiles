@@ -29,6 +29,8 @@ function ks --wraps rm --description 'alias kubectl config set-context'
     kubectl config set-context --current --namespace=$argv
 end
 
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
+
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
 complete -c itermocil -a "(itermocil --list)"

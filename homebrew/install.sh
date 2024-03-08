@@ -11,6 +11,7 @@ brew upgrade
 brew tap homebrew/cask-drivers
 
 echo "└── Installing brew packages"
+brew install asdf
 brew install awscli
 brew install git
 brew install gnupg
@@ -19,7 +20,6 @@ brew install fish
 brew install kubernetes-cli
 brew install m-cli
 brew install mas
-brew install nvm
 brew install openjdk
 brew install starship
 brew install rustup-init
