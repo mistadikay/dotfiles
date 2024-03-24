@@ -29,7 +29,7 @@ function ks --wraps rm --description 'alias kubectl config set-context'
     kubectl config set-context --current --namespace=$argv
 end
 
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
+source /opt/asdf-vm/asdf.fish
 
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
@@ -59,11 +59,5 @@ set -x GPG_TTY (tty)
 
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
-
-test -e {$HOME}/.iterm2_shell_integration.fish
-and source {$HOME}/.iterm2_shell_integration.fish
-
-set -g fish_user_paths "/usr/local/opt/tomcat@8/bin" $fish_user_paths
-fish_add_path /usr/local/opt/terraform@0.13/bin
 
 starship init fish | source
