@@ -1,7 +1,7 @@
 [user]
 	name = Denis Koltsov
 	email = iam@mistadikay.com
-	signingkey = 3C9D9D280118ED0A
+	signingkey = EE5EC460D5BF2118
 
 [includeIf "gitdir:~/Projects/pdx/"]
     path = ~/Projects/pdx/.gitconfig
@@ -10,7 +10,7 @@
 	user = mistadikay
 
 [core]
-	excludesfile = /Users/mistadikay/.gitignore
+	excludesfile = ~/.gitignore
 	editor = subl --wait
 	autocrlf = input
 
@@ -54,6 +54,6 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [gpg]
-	program = /opt/homebrew/bin/gpg
+	program = /usr/bin/gpg
 [init]
 	defaultBranch = main
