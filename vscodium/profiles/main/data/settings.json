@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Jetbrains Dark Theme",
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "window.openFilesInNewWindow": "default",
+    "window.openFoldersInNewWindow": "on"
+}

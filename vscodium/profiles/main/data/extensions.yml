@@ -1,0 +1,20 @@
+disabled: []
+enabled:
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: felipecaputo.git-project-manager
+    uuid: 2bba45f2-4a48-41a6-bb86-d6ba5ab29a9f
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: mhutchie.git-graph
+    uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
+  - id: MoBalic.jetbrains-dark-theme
+    uuid: 2f1f652b-198b-4411-b2bd-f8d0909fb2ae
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: pinage404.git-extension-pack
+    uuid: 7a160397-2776-4848-a91e-696535e29cd5
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
