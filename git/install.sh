@@ -26,7 +26,7 @@ case "$os" in
     ;;
 esac
 
-hostname=$(hostname)
+hostname=$(uname -n)
 case "$hostname" in
     "deniskoltsov")
         signingkey="3C9D9D280118ED0A"
@@ -34,7 +34,7 @@ case "$hostname" in
     "Deniss-MBP")
         signingkey="3C9D9D280118ED0A"
         ;;
-    "linux-hostname")
+    "mistadikay")
         signingkey="EE5EC460D5BF2118"
         ;;
     *)
