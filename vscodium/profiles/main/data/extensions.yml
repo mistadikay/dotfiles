@@ -6,6 +6,8 @@ enabled:
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: felipecaputo.git-project-manager
     uuid: 2bba45f2-4a48-41a6-bb86-d6ba5ab29a9f
+  - id: GitHub.copilot
+    uuid: null
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
   - id: mhutchie.git-graph
