@@ -43,6 +43,15 @@ case "$hostname" in
         ;;
 esac
 
+case "$hostname" in
+    "deniskoltsov")
+        email="denis.koltsov@paradoxinteractive.com"
+        ;;
+    *)
+        email="iam@mistadikay.com"
+        ;;
+esac
+
 
 # Copy .gitconfig to temporary file and customize
 tmp_gitconfig=$(mktemp)
@@ -51,6 +60,7 @@ cp "$src/gitconfig" "$tmp_gitconfig"
 # Append the gpg program and signingkey configurations
 echo -e "\n[gpg]\n    program = $gpg_program" >> "$tmp_gitconfig"
 echo -e "[user]\n    signingkey = $signingkey" >> "$tmp_gitconfig"
+echo -e "[user]\n    email = $email" >> "$tmp_gitconfig"
 
 # Replace existing .gitconfig with customized version
 rm -f $dest/.gitconfig
