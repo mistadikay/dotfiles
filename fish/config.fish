@@ -41,6 +41,7 @@ end
 complete -c itermocil -a "(itermocil --list)"
 
 set --export SECRETS_GPG_COMMAND gpg2
+set -x ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY latest_installed
 
 # Go
 set --export GOPATH $HOME/go
