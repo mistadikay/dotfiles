@@ -7,6 +7,7 @@
 dotfiles="$HOME/.dotfiles"
 
 # Install, setup and symlink everything
+bash $dotfiles/asdf/install.sh
 bash $dotfiles/fish/install.sh
 bash $dotfiles/homebrew/install.sh
 bash $dotfiles/macos/install.sh
