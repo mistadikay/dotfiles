@@ -1,0 +1,64 @@
+[user]
+	name = Denis Koltsov
+	email = iam@mistadikay.com
+	signingkey = EE5EC460D5BF2118
+
+[includeIf "gitdir:~/Projects/pdx/"]
+    path = ~/Projects/pdx/.gitconfig
+
+[github]
+	user = mistadikay
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vscodium --wait
+	autocrlf = input
+
+[commit]
+  gpgsign = true
+
+[push]
+	default = current
+
+[pull]
+    ff = only
+
+[url "https://github.com/"]
+	insteadOf = "gh:"
+
+[url "https://github.com/mistadikay/"]
+	insteadOf = "@:"
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[interactive]
+	diffFilter = diff-highlight
+
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[gpg]
+	program = /usr/bin/gpg
+[init]
+	defaultBranch = main
+
+[gpg]
+    program = /usr/bin/gpg
+[user]
+    signingkey = EE5EC460D5BF2118
