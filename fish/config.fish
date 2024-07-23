@@ -34,13 +34,6 @@ function ks --wraps rm --description 'alias kubectl config set-context'
     kubectl config set-context --current --namespace=$argv
 end
 
-switch (uname)
-    case Darwin
-        source /opt/homebrew/opt/asdf/libexec/asdf.fish
-    case Linux
-        source /opt/asdf-vm/asdf.fish
-end
-
 # autocompletion for itermocil
 # https://github.com/TomAnthony/itermocil#fish-autocompletion
 complete -c itermocil -a "(itermocil --list)"
@@ -73,3 +66,10 @@ set -x GPG_TTY (tty)
 . $HOME/.fishmarks/marks.fish
 
 starship init fish | source
+
+switch (uname)
+    case Darwin
+        source /opt/homebrew/opt/asdf/libexec/asdf.fish
+    case Linux
+        source /opt/asdf-vm/asdf.fish
+end
