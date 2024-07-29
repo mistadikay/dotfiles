@@ -76,5 +76,9 @@ switch (uname)
     case Darwin
         source /opt/homebrew/opt/asdf/libexec/asdf.fish
     case Linux
-        source /opt/asdf-vm/asdf.fish
+        if test -f /etc/debian_version
+            alias cat='batcat'
+        else
+            source /opt/asdf-vm/asdf.fish
+        end
 end
