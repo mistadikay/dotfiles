@@ -24,7 +24,12 @@ alias f='fzf'
 alias ls='eza'
 alias ll='eza -alh'
 alias tree='eza --tree'
-alias cat='bat'
+
+if test -f /etc/debian_version
+    alias cat='batcat'
+else
+    alias cat='bat'
+end
 
 function ku --wraps rm --description 'alias kubectl config use-context'
     kubectl config use-context arn:aws:eks:us-east-1:662431652384:cluster/k8s_$argv
