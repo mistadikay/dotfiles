@@ -4,8 +4,14 @@
 
 echo "Installing Fish dotfiles"
 
-echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
-chsh -s /opt/homebrew/bin/fish
+FISH_PATH=$(command -v fish)
+if [ -z "$FISH_PATH" ]; then
+  echo "Fish shell is not installed. Please install Fish shell and try again."
+  exit 1
+fi
+
+echo $FISH_PATH | sudo tee -a /etc/shells
+chsh -s $FISH_PATH
 
 # install fishmarks
 curl -L https://github.com/techwizrd/fishmarks/raw/master/install.fish | fish
