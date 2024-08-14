@@ -1,7 +1,7 @@
 [user]
 	name = Denis Koltsov
 	email = iam@mistadikay.com
-	signingkey = EE5EC460D5BF2118
+	signingkey = 3C9D9D280118ED0A
 
 [includeIf "gitdir:~/Projects/pdx/"]
     path = ~/Projects/pdx/.gitconfig
@@ -60,7 +60,5 @@
 
 [gpg]
     program = /opt/homebrew/bin/gpg
-[user]
-    signingkey = 3C9D9D280118ED0A
 [user]
     email = denis.koltsov@paradoxinteractive.com

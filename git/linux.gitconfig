@@ -1,7 +1,7 @@
 [user]
 	name = Denis Koltsov
 	email = iam@mistadikay.com
-	signingkey = EE5EC460D5BF2118
+	signingkey = 3C9D9D280118ED0A
 
 [includeIf "gitdir:~/Projects/pdx/"]
     path = ~/Projects/pdx/.gitconfig
@@ -11,7 +11,7 @@
 
 [core]
 	excludesfile = ~/.gitignore
-	editor = vscodium --wait
+	editor = codium --wait
 	autocrlf = input
 
 [commit]
@@ -61,4 +61,4 @@
 [gpg]
     program = /usr/bin/gpg
 [user]
-    signingkey = EE5EC460D5BF2118
+    email = iam@mistadikay.com

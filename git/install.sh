@@ -29,21 +29,6 @@ esac
 > $os_gitconfig
 
 hostname=$(uname -n)
-case "$hostname" in
-    "deniskoltsov")
-        signingkey="3C9D9D280118ED0A"
-        ;;
-    "Deniss-MBP")
-        signingkey="3C9D9D280118ED0A"
-        ;;
-    "mistadikay")
-        signingkey="EE5EC460D5BF2118"
-        ;;
-    *)
-        echo "Unknown machine. Cannot configure GPG signing key automatically."
-        exit 1
-        ;;
-esac
 
 case "$hostname" in
     "deniskoltsov")
@@ -60,7 +45,6 @@ cp "$src/gitconfig" "$os_gitconfig"
 
 # Append the gpg program and signingkey configurations
 echo -e "\n[gpg]\n    program = $gpg_program" >> "$os_gitconfig"
-echo -e "[user]\n    signingkey = $signingkey" >> "$os_gitconfig"
 echo -e "[user]\n    email = $email" >> "$os_gitconfig"
 
 # Replace existing .gitconfig with customized version
