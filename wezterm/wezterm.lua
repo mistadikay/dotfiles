@@ -1,4 +1,5 @@
 local wezterm = require("wezterm")
+local act = wezterm.action
 
 config = wezterm.config_builder()
 
@@ -12,5 +13,18 @@ config = {
     font = wezterm.font("JetBrains Mono", { weight = "Regular" }),
     font_size = 10,
 }
+
+config.keys = {
+    {
+      key = 't',
+      mods = 'CTRL',
+      action = act.SpawnTab 'CurrentPaneDomain'
+    },
+    {
+      key = 'w',
+      mods = 'CTRL',
+      action = act.CloseCurrentTab{ confirm = true }
+    },
+  }
 
 return config
