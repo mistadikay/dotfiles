@@ -6,6 +6,9 @@ function up
                 sudo dnf clean all
                 sudo dnf upgrade --refresh
                 sudo yum update
+            else if test -e /etc/arch-release
+                yay -Syu
+                yay -Rns $(pacman -Qdtq)
             else
                 sudo apt update
                 sudo apt full-upgrade
