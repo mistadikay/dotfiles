@@ -18,7 +18,7 @@ case "$os" in
     os_gitconfig="$src/linux.gitconfig"
     ;;
   "Darwin")
-    gpg_program="/opt/homebrew/bin/gpg"
+    gpg_program="/usr/local/bin/gpg"
     os_gitconfig="$src/mac.gitconfig"
     ;;
   *)
