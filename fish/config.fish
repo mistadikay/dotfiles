@@ -69,7 +69,7 @@ starship init fish | source
 
 switch (uname)
     case Darwin
-        source /opt/homebrew/opt/asdf/libexec/asdf.fish
+        source /usr/local/opt/asdf/libexec/asdf.fish
     case Linux
         if test -f /etc/debian_version
             alias cat='batcat'
