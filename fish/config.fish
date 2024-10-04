@@ -1,3 +1,7 @@
+if not tmux list-sessions > /dev/null 2>&1
+    tmux
+end
+
 # remove greeting
 set fish_greeting
 
