@@ -6,8 +6,7 @@
 * Move the following from the previous computer:
   * ~/.aws
   * ~/.config
-  * ~/.gitconfig
-  * ~/.gitignore
+  * ~/.local/share/fish/fish_history
   * ~/.gnupg
   * ~/.kube
   * ~/.ssh
