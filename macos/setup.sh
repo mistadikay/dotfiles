@@ -46,20 +46,6 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 echo "Set a blazingly fast keyboard repeat rate"
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
-# Safari
-echo "Enable Safari’s debug menu"
-defaults write com.apple.safari IncludeInternalDebugMenu -bool true
-
-echo "Show favorites bar in Safari by default"
-defaults write com.apple.safari ShowFavoritesBar -bool true
-
-echo "TODO: Safari opens with last session"
-
-echo "TODO: Keyboard -> App Shortcuts -> Safari -> 'Close Tab' shortcut"
-
-# Desktop & Screen Saver
-echo "TODO: Active Screen Corners -> Top Right -> Launchpad"
-
 # Menu bar
 echo "TODO: Show bluetooth icon"
 
