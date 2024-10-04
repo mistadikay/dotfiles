@@ -8,19 +8,14 @@ set fish_greeting
 # Set aliases
 alias k kubectl
 alias c clear
-alias b babel-node
 alias fi fisher
 alias tc itermocil
 alias brc "brew cask"
 alias brci "brew cask install"
 alias brcu "brew cask uninstall"
-alias y yarn
-alias r yarn
 alias gcl "git clone"
 alias gs "git status"
 alias gp "git push"
-alias gpnf "git push --no-verify"
-alias gpnff "git push --no-verify --force"
 alias git='env LANG=en_US.UTF-8 git'
 alias dps='docker ps'
 alias ds='docker stop'
