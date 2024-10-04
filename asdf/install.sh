@@ -16,5 +16,16 @@ for file in ${files[@]}; do
   ln -s $src/$file $dest/$file
 done
 
+asdf plugin add python
+asdf install python latest
+asdf global python latest
+
+asdf plugin add golang
+asdf install golang latest
+asdf global golang latest
+
+asdf plugin add nodejs
+asdf install nodejs latest
+asdf global nodejs latest
 
 printf "\n"cat
