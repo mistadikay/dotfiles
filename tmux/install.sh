@@ -20,6 +20,9 @@ for file in ${files[@]}; do
   ln -s $src/$file $dest/$file
 done
 
-tmux source $HOME/.tmux.conf
+printf "\n"
+echo "Launch tmux and run the following command:"
+printf "\n"
+echo "tmux source $HOME/.tmux.conf"
 
 printf "\n"
