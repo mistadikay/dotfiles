@@ -28,17 +28,6 @@ case "$os" in
 esac
 > $os_gitconfig
 
-hostname=$(uname -n)
-
-case "$hostname" in
-    "deniskoltsov")
-        email="denis.koltsov@paradoxinteractive.com"
-        ;;
-    *)
-        email="iam@mistadikay.com"
-        ;;
-esac
-
 
 # Copy .gitconfig to os_gitconfig file and customize
 cp "$src/gitconfig" "$os_gitconfig"

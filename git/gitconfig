@@ -3,9 +3,6 @@
 	email = iam@mistadikay.com
 	signingkey = 3C9D9D280118ED0A
 
-[includeIf "gitdir:~/Projects/pdx/"]
-    path = ~/Projects/pdx/.gitconfig
-
 [github]
 	user = mistadikay
 
