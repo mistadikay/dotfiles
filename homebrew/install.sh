@@ -38,6 +38,7 @@ brew install --cask jetbrains-toolbox
 brew install --cask obsidian
 brew install --cask protonmail-bridge
 brew install --cask steam
+brew install --cask telegram
 brew install --cask thunderbird
 brew install --cask vscodium
 brew install --cask wezterm
