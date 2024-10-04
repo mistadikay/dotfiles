@@ -1,43 +1,43 @@
 #!/usr/bin/env bash
 
 echo "└── Installing Homebrew"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # add brew to PATH
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/denis.koltsov/.zprofile
+echo >> /Users/deniskoltsov/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/deniskoltsov/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew upgrade
-brew tap homebrew/cask-drivers
 
 echo "└── Installing brew packages"
 brew install asdf
 brew install awscli
+brew install bat
+brew install eza
 brew install git
 brew install gnupg
-brew install go
 brew install fish
 brew install kubernetes-cli
 brew install m-cli
 brew install mas
-brew install openjdk
+brew install pinentry-mac
 brew install starship
-brew install vault
-brew install yarn
-brew install youtube-dl
+brew install stats
+brew install tmux
 
 echo "└── Installing brew casks"
 brew install --cask 1password
 brew install --cask bartender
+brew install --cask bruno
+brew install --cask chatgpt
 brew install --cask docker
-brew install --cask dropbox
 brew install --cask firefox
 brew install --cask focus
-brew install --cask istat-menus
-brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask obsidian
-brew install --cask postman
-brew install --cask rectangle
+brew install --cask protonmail-bridge
 brew install --cask steam
-brew install --cask sublime-text
+brew install --cask thunderbird
+brew install --cask vscodium
+brew install --cask wezterm
