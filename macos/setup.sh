@@ -23,6 +23,12 @@ defaults write com.apple.dock largesize -float 56
 echo "Remove all apps from the dock"
 defaults write com.apple.dock persistent-apps -array
 
+echo "Enable swipe with three fingers"
+defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
+
+echo "Enable App Exposé"
+defaults write com.apple.dock showAppExposeGestureEnabled -bool true
+
 echo "Reload the dock"
 killall Dock
 
