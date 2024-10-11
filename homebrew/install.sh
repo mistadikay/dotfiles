@@ -28,6 +28,7 @@ brew install tmux
 
 echo "└── Installing brew casks"
 brew install --cask 1password
+brew install --cask anki
 brew install --cask bartender
 brew install --cask bruno
 brew install --cask chatgpt
