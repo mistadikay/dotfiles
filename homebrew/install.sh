@@ -21,6 +21,7 @@ brew install fish
 brew install kubernetes-cli
 brew install m-cli
 brew install mas
+brew install ollama
 brew install pinentry-mac
 brew install starship
 brew install stats
@@ -44,3 +45,6 @@ brew install --cask telegram
 brew install --cask thunderbird
 brew install --cask vscodium
 brew install --cask wezterm
+
+echo "└── Starting brew services"
+brew services start ollama
