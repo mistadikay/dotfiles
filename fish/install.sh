@@ -46,4 +46,16 @@ for file in $src; do
   ln -s $file $destpath
 done
 
+src="$HOME/.dotfiles/fish"
+dest="$HOME/.config"
+files=(starship.toml)
+echo "└── Linking to $dest:"
+mkdir -p $dest
+for file in ${files[@]}; do
+  echo "│   └── $file"
+
+  rm -f $dest/$file
+  ln -s $src/$file $dest/$file
+done
+
 printf "\n"
