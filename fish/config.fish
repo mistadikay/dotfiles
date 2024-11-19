@@ -3,6 +3,7 @@ set fish_greeting
 
 # Set aliases
 alias k kubectl
+alias k0 "k0s kubectl"
 alias c clear
 alias fi fisher
 alias tc itermocil
@@ -60,6 +61,9 @@ set -x GPG_TTY (tty)
 
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 . $HOME/.fishmarks/marks.fish
+
+# Kubernetes
+set --export KUBECONFIG $HOME/.kube/config
 
 starship init fish | source
 
