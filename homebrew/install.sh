@@ -15,9 +15,10 @@ brew install asdf
 brew install awscli
 brew install bat
 brew install eza
+brew install fish
 brew install git
 brew install gnupg
-brew install fish
+brew install helm
 brew install kubernetes-cli
 brew install m-cli
 brew install mas
