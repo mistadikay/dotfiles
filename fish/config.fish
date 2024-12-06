@@ -49,6 +49,9 @@ set --export PATH $GOPATH/go_appengine $PATH
 set --export PATH $HOME/.local/bin $PATH
 set --export PATH /usr/lib/docker/cli-plugins $PATH
 
+# Krew
+set -gx PATH $PATH $HOME/.krew/bin
+
 # Rust
 set --export PATH $HOME/.cargo/bin $PATH
 
