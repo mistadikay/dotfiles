@@ -22,7 +22,7 @@ case "$os" in
     os_gitconfig="$src/mac.gitconfig"
     ;;
   *)
-    echo "Unknown os. Cannot configure GPG program."
+    echo "Unknown OS. Cannot configure Git"
     exit 1
     ;;
 esac
