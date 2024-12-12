@@ -68,6 +68,8 @@ set -x GPG_TTY (tty)
 # Kubernetes
 set --export KUBECONFIG $HOME/.kube/config
 
+set --export EDITOR vim
+
 starship init fish | source
 
 switch (uname)
