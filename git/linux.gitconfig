@@ -60,5 +60,3 @@
 
 [gpg]
     program = /usr/bin/gpg
-[user]
-    email = iam@mistadikay.com
