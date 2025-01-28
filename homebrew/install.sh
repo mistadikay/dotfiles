@@ -10,6 +10,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew upgrade
 
+echo "└── Adding custom taps"
+brew tap hashicorp/tap
+
 echo "└── Installing brew packages"
 brew install asdf
 brew install awscli
@@ -26,7 +29,7 @@ brew install ollama
 brew install pinentry-mac
 brew install starship
 brew install stats
-brew install terraform
+brew install hashicorp/tap/terraform
 brew install tmux
 
 echo "└── Installing brew casks"
