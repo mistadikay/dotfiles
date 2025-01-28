@@ -26,16 +26,19 @@ brew install ollama
 brew install pinentry-mac
 brew install starship
 brew install stats
+brew install terraform
 brew install tmux
 
 echo "└── Installing brew casks"
 brew install --cask 1password
 brew install --cask anki
+brew install --cask appcleaner
 brew install --cask bartender
 brew install --cask brave-browser
 brew install --cask bruno
 brew install --cask chatgpt
 brew install --cask docker
+brew install --cask figma
 brew install --cask firefox
 brew install --cask focus
 brew install --cask garmin-express
