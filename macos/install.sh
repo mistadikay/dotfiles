@@ -11,3 +11,4 @@ softwareupdate --install-rosetta --agree-to-license
 echo "└── Installing apps from Mac App Store"
 mas lucky daisydisk
 mas lucky dato
+mas lucky tailscale
