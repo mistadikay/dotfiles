@@ -27,6 +27,7 @@ brew install opentofu
 brew install pinentry-mac
 brew install starship
 brew install stats
+brew install tflint
 brew install tmux
 
 echo "└── Installing brew casks"
