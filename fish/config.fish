@@ -71,14 +71,3 @@ set --export KUBECONFIG $HOME/.kube/config
 set --export EDITOR vim
 
 starship init fish | source
-
-switch (uname)
-    case Darwin
-        source $(brew --prefix asdf)/libexec/asdf.fish
-    case Linux
-        if test -f /etc/debian_version
-            alias cat='batcat'
-        else
-            source /opt/asdf-vm/asdf.fish
-        end
-end
