@@ -5,6 +5,7 @@ set fish_greeting
 alias k kubectl
 alias k0 "k0s kubectl"
 alias c clear
+alias pn pnpm
 alias fi fisher
 alias tc itermocil
 alias brc "brew cask"
