@@ -14,6 +14,7 @@ echo "└── Installing brew packages"
 brew install asdf
 brew install awscli
 brew install bat
+brew install coreutils
 brew install eza
 brew install fish
 brew install git
@@ -25,8 +26,10 @@ brew install mas
 brew install ollama
 brew install opentofu
 brew install pinentry-mac
+brew install plexamp
 brew install starship
 brew install stats
+brew install tailscale
 brew install tflint
 brew install tmux
 
@@ -52,6 +55,7 @@ brew install --cask telegram
 brew install --cask thunderbird
 brew install --cask vscodium
 brew install --cask wezterm
+brew install --cask yubico-yubikey-manager
 
 echo "└── Starting brew services"
 brew services start ollama
