@@ -27,6 +27,7 @@ brew install ollama
 brew install opentofu
 brew install pinentry-mac
 brew install plexamp
+brew install rg
 brew install starship
 brew install stats
 brew install tailscale
