@@ -61,6 +61,9 @@ set --export PATH $GOPATH/go_appengine $PATH
 set --export PATH $HOME/.local/bin $PATH
 set --export PATH /usr/lib/docker/cli-plugins $PATH
 
+# Android development
+set --export ANDROID_HOME $HOME/Library/Android/sdk
+
 # Krew
 set -gx PATH $PATH $HOME/.krew/bin
 
