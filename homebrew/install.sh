@@ -39,9 +39,9 @@ brew install --cask 1password
 brew install --cask anki
 brew install --cask appcleaner
 brew install --cask bartender
-brew install --cask brave-browser
 brew install --cask bruno
 brew install --cask chatgpt
+brew install --cask claude
 brew install --cask docker
 brew install --cask figma
 brew install --cask firefox
@@ -52,6 +52,7 @@ brew install --cask obsidian
 brew install --cask slack
 brew install --cask steam
 brew install --cask telegram
+brew install --cask vivaldi
 brew install --cask vscodium
 brew install --cask wezterm
 brew install --cask yubico-yubikey-manager
