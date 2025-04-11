@@ -32,6 +32,9 @@ if not contains $_asdf_shims $PATH
     set -gx --prepend PATH $_asdf_shims
 end
 set --erase _asdf_shims
+if command -v asdf > /dev/null
+    set -gx PATH (asdf where nodejs)/bin $PATH
+end
 
 if test -f /etc/debian_version
     alias cat='batcat'
