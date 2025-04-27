@@ -21,7 +21,7 @@
     ff = only
 
 [url "https://github.com/"]
-	insteadOf = "gh:"
+	insteadOf = git@github.com:
 
 [url "https://github.com/mistadikay/"]
 	insteadOf = "@:"
@@ -37,8 +37,6 @@
 
 [url "git@bitbucket.org:"]
 	insteadOf = https://bitbucket.org/
-[url "git@github.com:"]
-	insteadOf = https://github.com/
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
