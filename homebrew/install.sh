@@ -45,7 +45,6 @@ brew install --cask claude
 brew install --cask docker
 brew install --cask figma
 brew install --cask firefox
-brew install --cask focus
 brew install --cask garmin-express
 brew install --cask jetbrains-toolbox
 brew install --cask obsidian
