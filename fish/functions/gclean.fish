@@ -1,4 +1,4 @@
-# cccccbrfghlvtflhrkjdrdubcgekbirujevklljl
+# Clean merged local branches
 function gclean
     git branch --merged \
       | grep -Ev '(^\*|[[:space:]](main|master)$)' \
