@@ -14,9 +14,11 @@ echo "└── Installing brew packages"
 brew install asdf
 brew install awscli
 brew install bat
+brew install bun
 brew install coreutils
 brew install eza
 brew install fish
+brew install gh
 brew install git
 brew install gnupg
 brew install helm
@@ -48,6 +50,7 @@ brew install --cask firefox
 brew install --cask garmin-express
 brew install --cask jetbrains-toolbox
 brew install --cask obsidian
+brew install --cask raycast
 brew install --cask slack
 brew install --cask steam
 brew install --cask telegram
