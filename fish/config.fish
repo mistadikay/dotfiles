@@ -89,3 +89,6 @@ set --export KUBECONFIG $HOME/.kube/config
 set --export EDITOR vim
 
 starship init fish | source
+
+# LM Studio CLI https://lmstudio.ai
+set -gx PATH $PATH /Users/deniskoltsov/.lmstudio/bin

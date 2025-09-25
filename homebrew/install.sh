@@ -49,6 +49,7 @@ brew install --cask figma
 brew install --cask firefox
 brew install --cask garmin-express
 brew install --cask jetbrains-toolbox
+brew install --cask lm-studio
 brew install --cask obsidian
 brew install --cask raycast
 brew install --cask slack
