@@ -15,13 +15,18 @@ brew install asdf
 brew install awscli
 brew install bat
 brew install bun
+brew install --HEAD colima
 brew install coreutils
+brew install ctop
+brew install docker-buildx
+brew install docker-compose
 brew install eza
 brew install fish
 brew install gh
 brew install git
 brew install gnupg
 brew install helm
+brew install k6
 brew install kubernetes-cli
 brew install m-cli
 brew install mas
@@ -29,10 +34,13 @@ brew install ollama
 brew install opentofu
 brew install pinentry-mac
 brew install plexamp
+brew install protobuf
 brew install rg
 brew install starship
+brew install sst/tap/opencode
 brew install stats
 brew install tailscale
+brew install telnet
 brew install tflint
 brew install tmux
 
@@ -50,6 +58,7 @@ brew install --cask firefox
 brew install --cask garmin-express
 brew install --cask jetbrains-toolbox
 brew install --cask lm-studio
+brew install --cask mullvad-vpn
 brew install --cask obsidian
 brew install --cask raycast
 brew install --cask slack
