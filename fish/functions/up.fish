@@ -24,9 +24,6 @@ function up
             brew update
             brew upgrade
             brew cleanup -s
-
-            # https://github.com/rgcr/m-cli
-            m --update
     end
 
     # https://github.com/fish-shell/fish-shell/blob/master/doc_src/fish_update_completions.txt
