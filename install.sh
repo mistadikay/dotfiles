@@ -17,6 +17,7 @@ bash $dotfiles/asdf/install.sh
 bash $dotfiles/psql/install.sh
 bash $dotfiles/tmux/install.sh
 bash $dotfiles/wezterm/install.sh
+bash $dotfiles/agent-skills/install.sh
 
 echo "\(• ◡ •)/      dotfiles installed!     ᕕ( ᐛ )ᕗ"
 printf "\n"
