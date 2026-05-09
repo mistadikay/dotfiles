@@ -1,0 +1,46 @@
+{
+  "servers": {
+    "figma": {
+      "description": "Figma's hosted MCP server.",
+      "transport": "remote",
+      "url": "https://mcp.figma.com/mcp",
+      "enabled": true
+    },
+    "opentofu": {
+      "description": "OpenTofu documentation MCP server.",
+      "transport": "sse",
+      "url": "https://mcp.opentofu.org/sse",
+      "enabled": true
+    },
+    "effect-docs": {
+      "description": "Effect documentation MCP server.",
+      "transport": "stdio",
+      "command": ["npx", "-y", "effect-mcp@latest"],
+      "enabled": true
+    },
+    "context7": {
+      "description": "Context7 documentation and library context.",
+      "transport": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": {
+          "env": "CONTEXT7_API_KEY"
+        }
+      },
+      "enabled": true
+    },
+    "nia": {
+      "description": "Nia MCP server.",
+      "transport": "remote",
+      "url": "https://apigcp.trynia.ai/mcp",
+      "headers": {
+        "Authorization": {
+          "env": "NIA_API_KEY",
+          "prefix": "Bearer "
+        }
+      },
+      "oauth": false,
+      "enabled": true
+    }
+  }
+}

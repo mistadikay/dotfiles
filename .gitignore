@@ -1,2 +1,4 @@
 .DS_Store
 .idea
+agents/configs/shared/secrets.env
+agents/configs/**/*.local.*
