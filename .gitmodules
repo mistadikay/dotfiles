@@ -1,0 +1,3 @@
+[submodule "agents/sources/expo-skills"]
+	path = agents/sources/expo-skills
+	url = https://github.com/expo/skills.git

@@ -17,7 +17,7 @@ Usage: ~/.dotfiles/agents/sync.sh [all|skills|mcp] [--dry-run]
 
 Targets:
   all      Sync skills and MCP configuration (default)
-  skills   Symlink shared skills into local agent harnesses
+  skills   Update external skill sources and symlink skills into local harnesses
   mcp      Sync shared MCP servers into local agent harness configs
 
 Secrets:

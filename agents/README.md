@@ -17,6 +17,7 @@ Preview changes first:
 The sync command currently manages:
 
 - skills into `~/.claude/skills` and `~/.codex/skills`
+- external skill sources, including Expo's `plugins/expo/skills`
 - MCP servers from `configs/shared/mcp.servers.json`
 - Codex MCP config in a marked block of `~/.codex/config.toml`
 - OpenCode's top-level `"mcp"` config in `~/.config/opencode/opencode.jsonc`
@@ -46,9 +47,13 @@ them.
 
 ## Adding Things
 
-Add a new skill under `skills/<name>/SKILL.md`, or add an MCP server to
-`configs/shared/mcp.servers.json`, then run:
+Add a new skill under `skills/<name>/SKILL.md`, add an external source under
+`sources/`, or add an MCP server to `configs/shared/mcp.servers.json`, then run:
 
 ```bash
 ~/.dotfiles/agents/sync.sh
 ```
+
+The default sync updates external skill sources before linking them into local
+agent harnesses. `--dry-run` previews the planned sync without updating
+submodules or writing harness config.
