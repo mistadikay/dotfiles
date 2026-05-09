@@ -87,5 +87,17 @@ set --export EDITOR vim
 
 starship init fish | source
 
-# LM Studio CLI https://lmstudio.ai
-set -gx PATH $PATH /Users/deniskoltsov/.lmstudio/bin
+# opencode
+fish_add_path /Users/deniskoltsov/.opencode/bin
+
+# llama.cpp
+set -gx LLAMA_CACHE /Volumes/samsung-2tb/llama-cache
+
+set -gx DOCKER_HOST unix://$HOME/.colima/default/docker.sock
+
+# pnpm
+set -gx PNPM_HOME "/Users/deniskoltsov/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
