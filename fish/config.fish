@@ -80,9 +80,6 @@ set --export PATH /usr/local/sbin $PATH
 # Set GPG TTY
 set -x GPG_TTY (tty)
 
-# Load fishmarks (http://github.com/techwizrd/fishmarks)
-. $HOME/.fishmarks/marks.fish
-
 # Kubernetes
 set --export KUBECONFIG $HOME/.kube/config
 
